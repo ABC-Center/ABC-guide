@@ -1,0 +1,141 @@
+site_name: "Collaborative Distributed Science Guide"  # Update guide name here
+site_description: "A guide to collaborative work (originally for Imageomics), including GitHub and Hugging Face workflows."  # Update description
+site_author: "Imageomics Institute"    # Update organization/author name
+site_url: "https://Imageomics.github.io/Collaborative-distributed-science-guide/"  # Update your site URL
+
+repo_url: https://github.com/Imageomics/Collaborative-distributed-science-guide  # Update your repository URL
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  icon:
+    view: material/eye
+  logo: logos/Imageomics_ABC.png    # Set your logo
+  favicon: logos/Imageomics_ABC.png    # Set your logo or favicon of choice
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - content.action.view
+    - content.code.copy
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+  # Switch to your socials, more info from MkDocs: 
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
+    - icon: fontawesome/brands/github
+      link: https://github.com/Imageomics
+    - icon: simple/huggingface
+      link: https://huggingface.co/imageomics
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/imageomics-institute
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/imageomics.bsky.social
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/imageomics
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/imageomics/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@ImageomicsInstitute/videos
+    - icon: octicons/link-16
+      link: https://imageomics.org
+
+# Add your own copyright notice, but please include the note 
+# "This guide was generated from the <a href="https://github.com/Imageomics/Collaborative-distributed-science-guide" target="_blank"><u>Collaborative Distributed Science Guide</u></a>, developed by the <a href="https://imageomics.org" target="_blank"><u>Imageomics Institute</u></a> and the <a href="http://abcresearchcenter.org/" target="_blank"><u>AI and Biodiversity Change (ABC) Global Center</u></a>."
+copyright: >
+  This work was supported by both the <a href="https://imageomics.org" target="_blank"><u>Imageomics Institute</u></a> and the <a href="http://abcresearchcenter.org/" target="_blank"><u>AI and Biodiversity Change (ABC) Global Center</u></a>. 
+
+  The Imageomics Institute is funded by the US National Science Foundation's Harnessing the Data Revolution (HDR) program under <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118240" target="_blank"><u>Award #2118240</u></a> (Imageomics: A New Frontier of Biological Information Powered by Knowledge-Guided Machine Learning).
+
+  The ABC Global Center is funded by the US National Science Foundation under <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2330423&HistoricalAwards=false" target="_blank"><u>Award No. 2330423</u></a> and the Natural Sciences and Engineering Research Council of Canada under <a href="https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=782440" target="_blank"><u>Award No. 585136</u></a>.
+
+  Any opinions, findings, conclusions, or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation or the Natural Sciences and Engineering Research Council of Canada.
+
+plugins:
+  - glightbox
+  - macros
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.betterem
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - toc:
+      permalink: true
+      title: 📖 On This Page
+
+nav:
+# These are all relative links within the repo, only update if adding or deleting pages
+  - Home: index.md
+  - GitHub Guide:
+      - "Repo Guide": wiki-guide/GitHub-Repo-Guide.md
+      - "Workflow": wiki-guide/The-GitHub-Workflow.md
+      - "Pull Request Guide": wiki-guide/The-GitHub-Pull-Request-Guide.md
+      - "Projects Guide": wiki-guide/Guide-to-GitHub-Projects.md
+      - "Branch Protections": wiki-guide/When-to-think-about-branch-protections.md
+      - "Two Repo Problem": wiki-guide/Two-Repo-Problem.md
+      # May want to personalize (on page as well): Why use the <organization/group> GitHub
+      - "Why Use the Organization GitHub": wiki-guide/Why-use-the-organization-GitHub.md
+  - Hugging Face Guide:
+      - "Repo Guide": wiki-guide/Hugging-Face-Repo-Guide.md
+      - "Workflow": wiki-guide/The-Hugging-Face-Workflow.md
+      - "Dataset Upload Guide": wiki-guide/The-Hugging-Face-Dataset-Upload-Guide.md
+      # May want to personalize (on page as well): Why use the <organization/group> Hugging Face
+      - "Why Use the Organization Hugging Face": wiki-guide/Why-use-the-organization-Hugging-Face.md
+  - FAIR Guide:
+      - "About FAIR Principles": wiki-guide/FAIR-Guide.md
+      - "Metadata Checklist": wiki-guide/Metadata-Checklist.md
+      - "Code Repo Checklist": wiki-guide/Code-Checklist.md
+      - "Data Card Checklist": wiki-guide/Data-Checklist.md
+      - "Model Card Checklist": wiki-guide/Model-Checklist.md
+      - "DOI Generation": wiki-guide/DOI-Generation.md
+  - Templates:
+      - "About Templates": wiki-guide/About-Templates.md
+      - "Dataset Card Template": wiki-guide/HF_DatasetCard_Template_mkdocs.md
+      - "Model Card Template": wiki-guide/HF_ModelCard_Template_mkdocs.md
+  - Command Line Cheat Sheet: wiki-guide/Command-Line-Cheat-Sheet.md
+  - Code of Conduct: CODE_OF_CONDUCT.md
+  - Digital Product Policy: 
+      - "About Digital Product Policies": wiki-guide/About-Digital-Product-Policies.md
+      - "Release and Licensing Policy": wiki-guide/Digital-products-release-licensing-policy.md
+      - "Digital Product Life Cycle": wiki-guide/Digital-Product-Lifecycle.md
+  - Other Resources:
+      - "Technical Infrastructure": wiki-guide/Technical-Infrastructure.md
+      - "Virtual Environments": wiki-guide/Virtual-Environments.md
+      - "Helpful Tools": wiki-guide/Helpful-Tools-for-your-Workflow.md
+      - "Handling API Keys": wiki-guide/Handling-API-Keys.md
+      - "Glossary for Imageomics": wiki-guide/Glossary-for-Imageomics.md

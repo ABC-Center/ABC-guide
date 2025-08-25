@@ -1,0 +1,9 @@
+# Mac System
+.DS_Store
+
+# Additional
+__pycache__
+
+# MkDocs build output
+site/
+
