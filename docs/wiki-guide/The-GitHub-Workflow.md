@@ -5,7 +5,7 @@ Thank you for contributing!
 This document outlines guidelines for collaboratively contributing to a repository (repo).
 This workflow is ideal for when:
 
-- You are a member of the Imageomics Institute and have write access to the repository you're contributing to.
+- You are a member of the ABC Center and have write access to the repository you're contributing to.
 - You have (or expect to have) multiple people contributing to the repository and want to keep contributions organized and all team members up-to-date on progress.
 - You are working on a repository individually and want to keep contributions organized and log progress for your future self or others interested in seeing it.
 
@@ -13,12 +13,12 @@ It follows a branch and pull request (PR) based workflow, which provides a contr
 
 Importantly, this workflow suggests that **_contributions are created through PRs_** rather than directly committing to or merging into the `main` branch.
 
-## Contribute as an Imageomics member with write access
+## Contribute as an ABC member with write access
 
 ### 1. Clone the repo to your machine
 
 ```sh
-git clone https://github.com/Imageomics/<repo-name>.git
+git clone https://github.com/ABC-Center/<repo-name>.git
 cd <repo-name>
 ```
 

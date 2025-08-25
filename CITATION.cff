@@ -29,10 +29,10 @@ date-released: "2025-08-15"
 identifiers:
   - description: "The GitHub release URL of tag v1.0.0."
     type: url
-    value: "https://github.com/Imageomics/Collaborative-distributed-science-guide/releases/tag/v1.0.0"
+    value: "https://github.com/ABC-Center/ABC-guide/releases/tag/v1.0.0"
   - description: "The GitHub URL of the commit tagged with v1.0.0."
     type: url
-    value: "https://github.com/Imageomics/Collaborative-distributed-science-guide/tree/c61bfb8b0a539bb06d3221cb1d8dc37f65254d68"
+    value: "https://github.com/ABC-Center/ABC-guide/tree/c61bfb8b0a539bb06d3221cb1d8dc37f65254d68"
 keywords:
   - imageomics
   - metadata
@@ -46,6 +46,6 @@ keywords:
   - standards
 license: CC0-1.0
 message: "If you find these docs helpful in your research, please cite them as below."
-repository-code: "https://github.com/Imageomics/Collaborative-distributed-science-guide"
-title: "Collaborative Distributed Science Guide"
+repository-code: "https://github.com/ABC-Center/ABC-guide"
+title: "AI & Biodiversity Change Global Center Guide"
 version: "1.0.0"

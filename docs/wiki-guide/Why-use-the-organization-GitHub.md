@@ -1,10 +1,6 @@
-# _"Why should I put my work into the GitHub org,"_ you ask?
+# _"Why should I put my work into the ABC GitHub org,"_ you ask?
 
-<!-- 
-Replace Imageomics GitHub Org links with links to your organization/group GitHub
-Replace all instances of "institute" or "Imageomics" with appropriate term or name for your organization or group.
--->
-The [Imageomics GitHub organization](https://github.com/Imageomics) exists to facilitate collaboration and version control among team members working on projects within the institute and make them available to the research community. You are encouraged to take advantage of the benefits of using this GitHub organization for your institute projects!
+The [ABC GitHub organization](https://github.com/ABC-Center) exists to facilitate collaboration and version control among team members working on projects within the institute and make them available to the research community. You are encouraged to take advantage of the benefits of using this GitHub organization for your institute projects!
 
 ## Centralization
 
@@ -27,7 +23,7 @@ This is the main aspect that leads to other benefits. Whether you are running yo
 
 ### Visibility + Impact
 
-- Work hosted under the Imageomics GitHub organization is directly associated with and contributes to the institute's brand, showcasing the collective contributions of our teams and enhancing the visibility and impact of their work within the broader community.
+- Work hosted under the ABC GitHub organization is directly associated with and contributes to the institute's brand, showcasing the collective contributions of our teams and enhancing the visibility and impact of their work within the broader community.
 - Your profile is featured alongside repositories you contribute to, providing opportunities for networking with those who find your work valuable.
 
 ## Professional Development
@@ -36,13 +32,13 @@ Despite its rough edges, the common standard for version control and code manage
 
 ## Showcasing Your Work
 
-If you want your public work with Imageomics featured on your personal GitHub profile, you can make use of the GitHub [pin](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile) feature to have public repositories of your choice appear at the top of your profile whether they belong to you through an organization or personally.
+If you want your public work with ABC featured on your personal GitHub profile, you can make use of the GitHub [pin](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/pinning-items-to-your-profile) feature to have public repositories of your choice appear at the top of your profile whether they belong to you through an organization or personally.
 
 ## Flexibility
 
-While we encourage you to host your institute-related work on the Imageomics GitHub organization to maximize these benefits, we understand that there may be situations where other platforms or private repositories are more appropriate. These include:
+While we encourage you to host your institute-related work on the ABC GitHub organization to maximize these benefits, we understand that there may be situations where other platforms or private repositories are more appropriate. These include:
 
 - Personal projects or work not directly tied to the institute.
 - Projects developed prior to joining the institute where transferring ownership might be complex or undesirable.
 
-We strongly encourage you to keep your institute-related work centrally organized in the [Imageomics GitHub organization](https://github.com/Imageomics) to maximize the benefits for you and your fellow researchers!
+We strongly encourage you to keep your institute-related work centrally organized in the [ABC GitHub organization](https://github.com/ABC-Center) to maximize the benefits for you and your fellow researchers!

@@ -1,9 +1,9 @@
-site_name: "Collaborative Distributed Science Guide"  # Update guide name here
+site_name: "AI & Biodiversity Change Global Center Guide"  # Update guide name here
 site_description: "A guide to collaborative work (originally for Imageomics), including GitHub and Hugging Face workflows."  # Update description
-site_author: "Imageomics Institute"    # Update organization/author name
-site_url: "https://Imageomics.github.io/Collaborative-distributed-science-guide/"  # Update your site URL
+site_author: "AI & Biodiversity Change Global Center"    # Update organization/author name
+site_url: "https://ABC-Center.github.io/ABC-guide/"  # Update your site URL
 
-repo_url: https://github.com/Imageomics/Collaborative-distributed-science-guide  # Update your repository URL
+repo_url: https://github.com/ABC-Center/ABC-guide  # Update your repository URL
 edit_uri: edit/main/docs/
 
 theme:
@@ -44,21 +44,21 @@ extra:
   # Switch to your socials, more info from MkDocs: 
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
     - icon: fontawesome/brands/github
-      link: https://github.com/Imageomics
+      link: https://github.com/ABC-Center
     - icon: simple/huggingface
-      link: https://huggingface.co/imageomics
+      link: https://huggingface.co/ABC-Center
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/imageomics-institute
+      link: https://www.linkedin.com/company/abc-global-center/
     - icon: fontawesome/brands/bluesky
-      link: https://bsky.app/profile/imageomics.bsky.social
+      link: https://bsky.app/profile/abcglobalcenter.bsky.social
     - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/imageomics
+      link: https://twitter.com/ABCGlobalCenter
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/imageomics/
+      link: https://www.instagram.com/ABCGlobalCenter/
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@ImageomicsInstitute/videos
+      link: https://www.youtube.com/@AIandBiodiversityChangeGlobalC
     - icon: octicons/link-16
-      link: https://imageomics.org
+      link: http://abcresearchcenter.org/
 
 # Add your own copyright notice, but please include the note 
 # "This guide was generated from the <a href="https://github.com/Imageomics/Collaborative-distributed-science-guide" target="_blank"><u>Collaborative Distributed Science Guide</u></a>, developed by the <a href="https://imageomics.org" target="_blank"><u>Imageomics Institute</u></a> and the <a href="http://abcresearchcenter.org/" target="_blank"><u>AI and Biodiversity Change (ABC) Global Center</u></a>."
