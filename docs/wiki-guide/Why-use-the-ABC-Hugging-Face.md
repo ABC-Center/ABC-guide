@@ -20,7 +20,7 @@ Hugging Face provides robust tools for collaborative development, making it easi
 
 ## Knowledge Sharing
 
-By hosting models and datasets on Hugging Face, we enhance knowledge sharing within and beyond the institute. This includes:
+By hosting models and datasets on Hugging Face, we enhance knowledge sharing within and beyond the ABC Center. This includes:
 
 - Providing clear documentation and usage examples, making it easier for new members to get up to speed.
 - Facilitating the spread of best practices across teams and projects.
@@ -45,13 +45,13 @@ Using Hugging Face provides valuable experience with tools and practices that ar
 Hugging Face offers several features to help you showcase your work:
 
 - You can highlight your contributions by pinning repositories to your profile, making your most significant work easily accessible.
-- Public models and datasets associated with the ABC organization can be featured on both your personal and the institute's profiles.
+- Public models and datasets associated with the ABC organization can be featured on both your personal and the center's profiles.
 
 ## Flexibility
 
-While we encourage you to host your institute-related work on the ABC Hugging Face organization to maximize these benefits, we understand that there may be situations where other platforms or private repositories are more appropriate. These include:
+While we encourage you to host your center-related work on the ABC Hugging Face organization to maximize these benefits, we understand that there may be situations where other platforms or private repositories are more appropriate. These include:
 
-- Personal projects or work not directly tied to the institute.
-- Projects developed prior to joining the institute where transferring ownership might be complex or undesirable.
+- Personal projects or work not directly tied to the ABC Center.
+- Projects developed prior to joining the ABC Center where transferring ownership might be complex or undesirable.
 
-We strongly encourage you to leverage the [ABC Hugging Face organization](https://huggingface.co/ABC-Center) for your institute-related projects. This will help you and your fellow researchers maximize collaboration, knowledge sharing, and the overall impact of our collective work.
+We strongly encourage you to leverage the [ABC Hugging Face organization](https://huggingface.co/ABC-Center) for your center-related projects. This will help you and your fellow researchers maximize collaboration, knowledge sharing, and the overall impact of our collective work.
