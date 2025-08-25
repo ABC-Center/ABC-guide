@@ -1,17 +1,17 @@
-site_name: "AI & Biodiversity Change Global Center Guide"  # Update guide name here
-site_description: "A guide to collaborative work (originally for Imageomics), including GitHub and Hugging Face workflows."  # Update description
-site_author: "AI & Biodiversity Change Global Center"    # Update organization/author name
-site_url: "https://ABC-Center.github.io/ABC-guide/"  # Update your site URL
+site_name: "AI & Biodiversity Change Global Center Guide"
+site_description: "An ABC Center-focused guide to collaborative work, including GitHub and Hugging Face workflows."
+site_author: "AI & Biodiversity Change Global Center"
+site_url: "https://ABC-Center.github.io/ABC-guide/"
 
-repo_url: https://github.com/ABC-Center/ABC-guide  # Update your repository URL
+repo_url: https://github.com/ABC-Center/ABC-guide
 edit_uri: edit/main/docs/
 
 theme:
   name: material
   icon:
     view: material/eye
-  logo: logos/Imageomics_ABC.png    # Set your logo
-  favicon: logos/Imageomics_ABC.png    # Set your logo or favicon of choice
+  logo: logos/digital/logo_icon_for_web_and_digital_content_square.png
+  favicon: logos/digital/logo_icon_for_web_and_digital_content_square.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -41,8 +41,6 @@ extra_css:
 
 extra:
   social:
-  # Switch to your socials, more info from MkDocs: 
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
     - icon: fontawesome/brands/github
       link: https://github.com/ABC-Center
     - icon: simple/huggingface
@@ -63,10 +61,10 @@ extra:
 # Add your own copyright notice, but please include the note 
 # "This guide was generated from the <a href="https://github.com/Imageomics/Collaborative-distributed-science-guide" target="_blank"><u>Collaborative Distributed Science Guide</u></a>, developed by the <a href="https://imageomics.org" target="_blank"><u>Imageomics Institute</u></a> and the <a href="http://abcresearchcenter.org/" target="_blank"><u>AI and Biodiversity Change (ABC) Global Center</u></a>."
 copyright: >
-  This work was supported by both the <a href="https://imageomics.org" target="_blank"><u>Imageomics Institute</u></a> and the <a href="http://abcresearchcenter.org/" target="_blank"><u>AI and Biodiversity Change (ABC) Global Center</u></a>. 
+  This guide was generated from the <a href="https://github.com/Imageomics/Collaborative-distributed-science-guide" target="_blank"><u>Collaborative Distributed Science Guide</u></a>, developed by the <a href="https://imageomics.org" target="_blank"><u>Imageomics Institute</u></a> and the <a href="http://abcresearchcenter.org/" target="_blank"><u>AI and Biodiversity Change (ABC) Global Center</u></a>.
 
-  The Imageomics Institute is funded by the US National Science Foundation's Harnessing the Data Revolution (HDR) program under <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2118240" target="_blank"><u>Award #2118240</u></a> (Imageomics: A New Frontier of Biological Information Powered by Knowledge-Guided Machine Learning).
-
+  This work was supported by the <a href=""http://abcresearchcenter.org/" target="_blank"><u>AI and Biodiversity Change (ABC) Global Center</u></a>.
+  
   The ABC Global Center is funded by the US National Science Foundation under <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2330423&HistoricalAwards=false" target="_blank"><u>Award No. 2330423</u></a> and the Natural Sciences and Engineering Research Council of Canada under <a href="https://www.nserc-crsng.gc.ca/ase-oro/Details-Detailles_eng.asp?id=782440" target="_blank"><u>Award No. 585136</u></a>.
 
   Any opinions, findings, conclusions, or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation or the Natural Sciences and Engineering Research Council of Canada.
@@ -108,14 +106,12 @@ nav:
       - "Projects Guide": wiki-guide/Guide-to-GitHub-Projects.md
       - "Branch Protections": wiki-guide/When-to-think-about-branch-protections.md
       - "Two Repo Problem": wiki-guide/Two-Repo-Problem.md
-      # May want to personalize (on page as well): Why use the <organization/group> GitHub
-      - "Why Use the Organization GitHub": wiki-guide/Why-use-the-organization-GitHub.md
+      - "Why Use the ABC GitHub": wiki-guide/Why-use-the-ABC-GitHub.md
   - Hugging Face Guide:
       - "Repo Guide": wiki-guide/Hugging-Face-Repo-Guide.md
       - "Workflow": wiki-guide/The-Hugging-Face-Workflow.md
       - "Dataset Upload Guide": wiki-guide/The-Hugging-Face-Dataset-Upload-Guide.md
-      # May want to personalize (on page as well): Why use the <organization/group> Hugging Face
-      - "Why Use the Organization Hugging Face": wiki-guide/Why-use-the-organization-Hugging-Face.md
+      - "Why Use the ABC Hugging Face": wiki-guide/Why-use-the-ABC-Hugging-Face.md
   - FAIR Guide:
       - "About FAIR Principles": wiki-guide/FAIR-Guide.md
       - "Metadata Checklist": wiki-guide/Metadata-Checklist.md
