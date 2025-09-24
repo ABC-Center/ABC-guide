@@ -135,7 +135,6 @@ nav:
       - "Release and Licensing Policy": wiki-guide/Digital-products-release-licensing-policy.md
       - "Digital Product Life Cycle": wiki-guide/Digital-Product-Lifecycle.md
   - Other Resources:
-      - "Technical Infrastructure": wiki-guide/Technical-Infrastructure.md
       - "Virtual Environments": wiki-guide/Virtual-Environments.md
       - "Helpful Tools": wiki-guide/Helpful-Tools-for-your-Workflow.md
       - "Handling API Keys": wiki-guide/Handling-API-Keys.md
