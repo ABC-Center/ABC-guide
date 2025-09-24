@@ -23,3 +23,74 @@ based on this suggestion: https://github.com/squidfunk/mkdocs-material/discussio
   height: 2.8rem;
   width: 2.8rem;
 }
+
+/*
+Define ABC colors for theme (light and dark)
+- Turquoise: #4FB797
+- Grey blue: #667FAF
+- Green: #73AB4E
+- Dark grey blue: #2D3C58
+ABC Logo "A" background color: #4E70B3
+Adjust admonitions and links to match (where otherwise clashed)
+*/
+
+/* Light mode colors: Grey blue and Turquoise */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #667FAF;
+  --md-accent-fg-color:         #4FB797;
+}
+
+/* Set admonition (Note) colors to match Turquoise used for accent (hover) 
+  Stands out better than matching the primary color */
+/* border color */
+.md-typeset .admonition.note, .md-typeset details.note {
+    border-color: #4FB797;
+    box-shadow: #4FB7971a;
+}
+
+/* icon color */
+.md-typeset .admonition.note > .admonition-title::before {
+    background-color: #4fb798;
+}
+
+/* shaded part (title/heading) */
+.md-typeset .note>.admonition-title,.md-typeset .note>summary {
+    background-color: #4FB7971a;
+}
+
+/* Set admonition (question) colors to match the ABC green */
+/* border color */
+.md-typeset .admonition.question, .md-typeset details.question {
+    border-color: #73AB4E;
+    box-shadow: #73AB4E1a;
+}
+
+/* icon color */
+.md-typeset .admonition.question > .admonition-title::before {
+    background-color: #73AB4E;
+}
+
+/* shaded part (title/heading) */
+.md-typeset .question>.admonition-title,.md-typeset .question>summary {
+    background-color: #73AB4E1a;
+}
+
+/* Set URL colors to ABC Logo "A" background color 
+  Different test color was picking darker version of Turquoise (straight down 
+  on color pop-up provided through VS Code): #347964 */ 
+/* Content URLs */
+.md-typeset a {
+  color: #4E70B3;
+}
+
+/* Navigation URL (side panel contents) to ABC Logo "A" background color
+  to better distinguish from those that are above */
+.md-nav .md-nav__link--active {
+  color: #4E70B3;
+}
+
+/* Dark mode colors: Dark Grey Blue and Turquoise */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #2D3C58;
+  --md-accent-fg-color:         #4FB797;
+}
