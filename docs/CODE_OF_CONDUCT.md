@@ -1,6 +1,6 @@
-# Imageomics and ABC Principles of Engagement
+# ABC Principles of Engagement
 
-As members of the Imageomics and ABC communities, we agree to maintain an environment where every participant feels welcome to be their true self and speak from the heart.
+As members of the ABC community, we agree to maintain an environment where every participant feels welcome to be their true self and speak from the heart.
 
 To this end, we agree as individuals and as a group to:
 
@@ -12,32 +12,22 @@ To this end, we agree as individuals and as a group to:
 - **Respect time.** When a session is over, we need to move on. There is designated time for in-depth follow up and continuing conversations.
 - **Care** for each other. We bring our full selves to the community, and we look out for each other wholeheartedly.
 
-We abide by these principles in all Imageomics and ABC spaces, including but not limited to digital and in-person meetings, formal and informal gatherings, online discussion forums and chat spaces, and field and lab work.
+We abide by these principles in all ABC spaces, including but not limited to digital and in-person meetings, formal and informal gatherings, online discussion forums and chat spaces, and field and lab work.
 
-Acts of misconduct are prohibited. Those found to engage in misconduct will be subject to dismissal from the project and further actions as directed by the guidelines of the employers and the place of incidence.
+## Acts of Misconduct
 
-If you believe you have experienced or witnessed misconduct in an Imageomics or ABC setting, please take these steps:
+It is the responsibility of all members of the ABC Global Center community to eliminate any form of misconduct in science and to build a community that allows all individuals to thrive, learn, and grow. Misconduct includes:
+
+- Abuse of any person, including, but not limited to, harassment, stalking, bullying, or hazing of any kind, whether the behavior is carried out verbally, physically, electronically, or in written form;
+- Conduct that is unwelcome, offensive, indecent, obscene, or disorderly;
+
+Those who experience or witness misconduct in an ABC Center-related on- or off-site work environment are advised to take these steps:
 
 1. Document the incident;
-2. Tell someone you trust;
-3. Report the incident to Diane Boghrat.
+2. Report the incident to field leaders and/or ABC Center Management who will offer to connect them to resources (i.e. medical care, police, counseling, etc.) and provide validation of their experience.
 
-Privacy will be protected to the greatest extent possible.
+ABC Center Management will investigate all reports of misconduct. Those found to engage in misconduct will be subject to dismissal from the project and further actions as directed by the guidelines of the employers, place of incidence, and relevant federal policies.
 
-## VALUES
+**Points of contact:**
 
-### TRANSPARENCY
-
-We ensure our efforts are clear about assumptions, uncertainty, and limits, and provide open sources of information, processes, and discovery.
-
-### ACCOUNTABILITY
-
-We are responsible, individually and collectively, for the outcomes we produce and ensure, to the best of our abilities, that the methods outcome matches intended use.
-
-### COLLABORATION
-
-We create and nurture collaborative environments and welcome, value, and affirm all members of our community. We also consider how and for whom solutions are created and promote the heterogeneity of perspectives in the creation process. We actively engage others’ perspectives, recognize everyone’s potential to contribute new ideas, and work together to find creative solutions to complex problems.
-
-### SAFETY
-
-We ensure our practices are ethical and impartial to the best of our ability. We address ethical issues when we discover them and practice good data governance.  We strive to enhance practices while openly addressing those that harm people or the environment.
+- Diane Boghrat, ABC Managing Director
