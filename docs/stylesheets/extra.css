@@ -79,13 +79,13 @@ Adjust admonitions and links to match (where otherwise clashed)
   Different test color was picking darker version of Turquoise (straight down 
   on color pop-up provided through VS Code): #347964 */ 
 /* Content URLs */
-.md-typeset a {
+[data-md-color-scheme="default"] .md-typeset a {
   color: #4E70B3;
 }
 
 /* Navigation URL (side panel contents) to ABC Logo "A" background color
   to better distinguish from those that are above */
-.md-nav .md-nav__link--active {
+[data-md-color-scheme="default"] .md-nav .md-nav__link--active {
   color: #4E70B3;
 }
 
@@ -93,4 +93,14 @@ Adjust admonitions and links to match (where otherwise clashed)
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color:        #2D3C58;
   --md-accent-fg-color:         #4FB797;
+}
+
+/* Dark mode custom link color */
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: #96ADCD;
+}
+
+/* Dark mode custom active link color (side panel) */
+[data-md-color-scheme="slate"] .md-nav .md-nav__link--active {
+  color: #96ADCD;
 }
