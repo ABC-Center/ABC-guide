@@ -39,3 +39,23 @@ ruff check <path/to/file>
 ```
 
 Ruff can also be set up as part of a pre-commit hook or GitHub Workflow. See their [Usage section](https://github.com/astral-sh/ruff?tab=readme-ov-file#usage) for more information.
+
+## Vale
+
+[Vale](https://github.com/errata-ai/vale) is a syntax-aware prose linter for documentation, technical writing, and markdown files. Unlike basic spell checkers, Vale enforces customizable style guides and writing rules, making it ideal for maintaining consistency across project documentation. You can install it with `brew install vale` on macOS, or see the [installation guide](https://vale.sh/docs/vale-cli/installation/) for other platforms.
+
+Vale comes with support for popular style guides like Google, Microsoft, and write-good, and you can create custom rules for your project's specific needs. It integrates well with version control workflows and can check documentation in various formats including Markdown, reStructuredText, HTML, and AsciiDoc.
+
+To lint documentation files, run:
+
+```bash
+vale <path/to/file.md>
+```
+
+To check an entire directory:
+
+```bash
+vale docs/
+```
+
+Vale uses a `.vale.ini` configuration file in your project root to specify style guides, vocabulary, and which files to check. You can also set up Vale as part of a [pre-commit](https://pre-commit.com/) hook or GitHub Workflow to automatically check documentation on commits or pull requests. See the [Vale documentation](https://vale.sh/docs/) for configuration examples and style guide options.
