@@ -7,9 +7,13 @@ Check out the [ABC Guide](https://ABC-Center.github.io/ABC-guide/) for guidance 
 
 ## About the Guide
 
-This guide was developed based on the more general [Collaborative Distributed Science Guide](https://imageomics.github.io/Collaborative-distributed-science-guide/), which was a joint effort between ABC and Imageomics to generalize the [Imageomics Guide](https://imageomics.github.io/Imageomics-guide/) for a broader audience. It is focused on providing guidance and best practices for collaborative and interdisciplinary (computer science + biology/ecology) work, and is broadly applicable to anyone working in similar or adjacent fields. The website is generated from Markdown documents with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) to increase accessibility for those less familiar with GitHub.
+This guide provides guidance and best practices for collaborative and interdisciplinary (computer science + biology/ecology) work at the ABC Global Center. It is focused on ABC member needs while remaining broadly applicable to anyone working in similar or adjacent fields. The website is generated from Markdown documents with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) to increase accessibility for those less familiar with GitHub.
 
 Please feel free to open an [issue](https://github.com/ABC-Center/ABC-guide/issues) with any questions regarding the content of this guide.
+
+### History
+
+This guide houses the information needed to get started with and use center resources readily available to all ABC members. It was developed based on the more general [Collaborative Distributed Science Guide](https://imageomics.github.io/Collaborative-distributed-science-guide/), which was a joint effort between ABC and Imageomics to generalize the [Imageomics Guide](https://imageomics.github.io/Imageomics-guide/) for a broader audience (please see the [template repository](https://github.com/Imageomics/Collaborative-distributed-science-guide) for more information). The template guide solution was born out of the desire to host an analogous site for the [AI and Biodiversity Change (ABC) Global Center](http://abcresearchcenter.org) while limiting duplicative updates between guides (ABC and Imageomics share some team members on this project).
 
 ## Contributing
 
@@ -30,10 +34,6 @@ mkdocs serve
 ```
 
 Then the site will run at <http://127.0.0.1:8000/ABC-guide/>.
-
-### History
-
-This guide houses the information needed to get started with and use center resources readily available to all members. It was developed based on the more general [Collaborative Distributed Science Guide](https://imageomics.github.io/Collaborative-distributed-science-guide/), which was a joint effort between ABC and Imageomics to generalize the [Imageomics Guide](https://imageomics.github.io/Imageomics-guide/) for a broader audience (please see the [template repository](https://github.com/Imageomics/Collaborative-distributed-science-guide) for more information). The template guide solution was born out of the desire to host an analogous site for the [AI and Biodiversity Change (ABC) Global Center](http://abcresearchcenter.org) while limiting duplicative updates between guides (ABC and Imageomics share some team members on this project).
 
 ## Acknowledgments
 
