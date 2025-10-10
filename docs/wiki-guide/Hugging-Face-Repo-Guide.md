@@ -6,7 +6,7 @@ Need a repository to store your data or model? You've come to the right place! B
 
 ### Standard Files
 
-For each repository, include the following files in the root directory as soon as possible; a license can (and should) be instantiated when you create a new repository, and the standard `.gitattributes` will be generated for you. On the [Imageomics HF](https://huggingface.co/imageomics) select `New` and pick which type of repository you need.
+For each repository, include the following files in the root directory as soon as possible; a license can (and should) be instantiated when you create a new repository, and the standard `.gitattributes` will be generated for you. On the [ABC HF](https://huggingface.co/ABC-Center) select `New` and pick which type of repository you need.
 
 - [README.md](#readme)
 - [LICENSE.md](#license)
@@ -15,9 +15,9 @@ For each repository, include the following files in the root directory as soon a
 
 #### README
 
-The README.md file is generally referred to as either a Dataset or Model Card and is what everyone will notice first when they open your repository on Hugging Face. Choose the appropriate Imageomics-specific HF template ([model](HF_ModelCard_Template_mkdocs.md) or [dataset](HF_DatasetCard_Template_mkdocs.md)) to get started. Be sure to include a brief description and as much information as possible at the beginning. You can update this file as you go, so don't remove the recommended sections prior to completion. The templates include descriptions of many fields, Imageomics grant information, citation formatting, and some notes on HF-flavored markdown to get you started.
+The README.md file is generally referred to as either a Dataset or Model Card and is what everyone will notice first when they open your repository on Hugging Face. Choose the appropriate ABC-specific HF template ([model](HF_ModelCard_Template_mkdocs.md) or [dataset](HF_DatasetCard_Template_mkdocs.md)) to get started. Be sure to include a brief description and as much information as possible at the beginning. You can update this file as you go, so don't remove the recommended sections prior to completion. The templates include descriptions of many fields, ABC grant information, citation formatting, and some notes on HF-flavored markdown to get you started.
 
-Once you've created your repo, populate your README (you can do this online by selecting "Create Dataset/Model Card" and pasting in the appropriate Imageomics HF template, then filling in your info). Editing your README in the browser allows you to preview the formatting of the file before committing changes.
+Once you've created your repo, populate your README (you can do this online by selecting "Create Dataset/Model Card" and pasting in the appropriate ABC HF template, then filling in your info). Editing your README in the browser allows you to preview the formatting of the file before committing changes.
 
 #### LICENSE
 

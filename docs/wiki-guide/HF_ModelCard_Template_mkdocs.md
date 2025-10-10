@@ -1,21 +1,11 @@
 # Model Card Template
 
-Below are the Model Card templates for Imageomics and ABC. You can download or copy the appropriate model card content and paste it into a new Markdown file to create a README for your model repo. 
+Below is the Model Card template for ABC. You can download or copy the model card content and paste it into a new Markdown file to create a README for your model repo. 
 
-<details>
-<summary>Imageomics</summary>
-</br>
-<b><a href="https://github.com/Imageomics/Collaborative-distributed-science-guide/blob/main/docs/wiki-guide/HF_ModelCard_Template_Imageomics.md" target="_blank">Download template from GitHub</a></b>
-
-
-{{ include_file_as_code("docs/wiki-guide/HF_ModelCard_Template_Imageomics.md") }}
-
-</details>
-
-<details>
+<details open>
 <summary>ABC</summary>
 </br>
-<b><a href="https://github.com/Imageomics/Collaborative-distributed-science-guide/blob/main/docs/wiki-guide/HF_ModelCard_Template_ABC.md" target="_blank">Download template from GitHub</a></b>
+<b><a href="https://github.com/ABC-Center/ABC-guide/blob/main/docs/wiki-guide/HF_ModelCard_Template_ABC.md" target="_blank">Download template from GitHub</a></b>
 
 {{ include_file_as_code("docs/wiki-guide/HF_ModelCard_Template_ABC.md") }}
 

@@ -105,15 +105,15 @@ date-released: "YYYY-MM-DD"
 identifiers:
   - description: "The GitHub release URL of tag <version>."
     type: url
-    value: "https://github.com/Imageomics/<repo>/releases/tag/<tag-name>"
+    value: "https://github.com/ABC-Center/<repo>/releases/tag/<tag-name>"
   - description: "The GitHub URL of the commit tagged with <tag-name>."
     type: url
-    value: "https://github.com/Imageomics/<repo>/tree/<commit-hash>"
+    value: "https://github.com/ABC-Center/<repo>/tree/<commit-hash>"
 keywords:
   - imageomics
 license:
 message: "If you find this software helpful in your research, please cite both the software and our paper."
-repository-code: "https://github.com/Imageomics/<repo>"
+repository-code: "https://github.com/ABC-Center/<repo>"
 title: "<repo title>"
 version: <release version>
 doi: <DOI from Zenodo>
@@ -220,6 +220,6 @@ If you would like a specific branch, use `git clone -b <branch_name> <repo_url>`
 
 ### Workflow Summary
 
-Generally, repositories are organized around an Imageomics Project/Topic/Team, eg., butterflies. These broader topics may contain various projects organized under a GitHub [Team](https://github.com/orgs/Imageomics/teams) focused on that topic. Both [projects](https://github.com/orgs/Imageomics/projects?query=is%3Aopen) and [repositories](https://github.com/orgs/Imageomics/repositories) may be linked to teams, providing an organizational structure upon which to plan and manage tasks while maintaining a clear link/connection to the work being done on those tasks. Note that a project may encapsulate multiple repositories just as a repository may be referenced by multiple projects.
+Generally, repositories are organized around an ABC Project/Topic/Team, eg., butterflies. These broader topics may contain various projects organized under a GitHub [Team](https://github.com/orgs/ABC-Center/teams) focused on that topic. Both [projects](https://github.com/orgs/ABC-Center/projects?query=is%3Aopen) and [repositories](https://github.com/orgs/ABC-Center/repositories) may be linked to teams, providing an organizational structure upon which to plan and manage tasks while maintaining a clear link/connection to the work being done on those tasks. Note that a project may encapsulate multiple repositories just as a repository may be referenced by multiple projects.
 
 Ideally, each task will be linked to an issue in the relevant repository. Team members may then be assigned tasks, and asynchronous discussions about the task can be recorded on its issue page in the repository. To accomplish the task, a new branch should be created following the [branch naming conventions](#formatting-and-naming-conventions); do not work directly on the `main` branch. Once the task is completed, a pull request can be opened to merge the changes into the main branch (see the [GitHub Workflow Guide](The-GitHub-Workflow.md) and the [PR Guide](The-GitHub-Pull-Request-Guide.md) for more details on this process). Reviewers may be assigned to each pull request to ensure compatibility and that the proposed solution functions as expected/needed; this is an opportunity for more dialogue.

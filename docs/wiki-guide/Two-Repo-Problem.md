@@ -34,7 +34,7 @@ The private repo will be created without any extra files so it will have no comm
 
 First create a public repo with commits.
 
-Visit <https://github.com/organizations/Imageomics/repositories/new>
+Visit <https://github.com/organizations/ABC-Center/repositories/new>
 
 - Enter the public repo name
 - Click the checkbox for `Add a README file`
@@ -71,7 +71,7 @@ There are two issues at play here:
 
 First create a private repo **without** commits.
 
-Visit <https://github.com/organizations/Imageomics/repositories/new>
+Visit <https://github.com/organizations/ABC-Center/repositories/new>
 
 - Enter the private repo name (ex: `<public-repo>-dev`)
 - **DO NOT** check `Add a README file`
@@ -202,7 +202,7 @@ When you are ready to release a new version of the code in the private repo foll
 
 ## _What if I already have mismatched repos?_
 
-If you find yourself with two repositories that have misaligned histories, please read the following and reach out to the Imageomics Informatics Team so we can help.
+If you find yourself with two repositories that have misaligned histories, please read the following and reach out to the ABC Informatics Team so we can help.
 
 ### Resolving Mismatched Public/Private Repos
 

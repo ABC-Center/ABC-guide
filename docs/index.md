@@ -1,8 +1,8 @@
-# Welcome to the Collaborative Distributed Science Guide!
+# Welcome to the ABC Guide!
 
-This website hosts guides to FAIR (findable, accessible, interoperable, reusable) and reproducible workflows, documentation, and general best-practices for collaborative science. We aim to provide a helpful resource for scientists working in [_imageomics_](wiki-guide/Glossary-for-Imageomics.md/#imageomics) and related interdisciplinary fields.
+This website hosts ABC Center-focused guides to FAIR (findable, accessible, interoperable, reusable) and reproducible workflows, documentation, and general best-practices for collaborative science. We aim to provide a helpful resource for scientists working in ML/AI for biodiversity studies and related interdisciplinary fields.
 
-For information about customizing this guide template, see [About the Guide](https://github.com/Imageomics/Collaborative-distributed-science-guide?tab=readme-ov-file#about-the-guide).
+This guide houses the information needed to get started with and use ABC Global Center resources readily available to all members. However, most of this guide is applicable to anyone working more broadly in interdisciplinary science, in particular for those interested in applying computer and data science to biodiversity and ecology. It is tailored to help domain scientists bridging that gap.
 
 ## Highlights
 
@@ -36,15 +36,15 @@ Discover new tools to help:
 
 - [Virtual Environments](wiki-guide/Virtual-Environments.md): Summary of `conda` and `pip` environments: how to make, use, and share them.
 
-## Collaborative Infrastructure used by Imageomics and ABC
+## Collaborative Infrastructure We Use
 
 - GitHub
-    - [Imageomics](https://github.com/Imageomics) and [ABC](https://github.com/ABC-Center) Code Repositories, where we store our code (software + tools).
+    - [ABC Code Repositories](https://github.com/ABC-Center), where we store our code (software + tools).
     - GitHub's [Docs](https://docs.github.com/en)
         - [Repositories](https://docs.github.com/en/repositories)
         - [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 - Hugging Face
-    - [Imageomics](https://huggingface.co/imageomics) and [ABC](https://hf.co/ABC-Center) Organization Pages, where we store our datasets and models (and their metadata).
+    - [ABC Organization Page](https://hf.co/ABC-Center), where we store our datasets and models (and their metadata).
     - Additionally, use [Hugging Face Spaces](https://huggingface.co/docs/hub/spaces) to run demos of models and other projects.
     - Hugging Face's [Docs](https://huggingface.co/docs)
         - [Model Hub](https://huggingface.co/docs/hub/models-the-hub)
@@ -54,15 +54,16 @@ Discover new tools to help:
 
 ![tech_infrastructure_diagram](wiki-guide/images/index/collaborative-infrastructure-diagram.png)
 
-## `<Organization>` Branding (Logos)
+## ABC Branding (Logos)
 
-Since this is a joint Imageomics and ABC project, we have a special combined logo:
+We have two versions of the ABC logo: The icon (left) is used for smaller displays such as profile pictures, the corner or presentations, etc. The full logo should generally be used when it can be displayed large enough to see the full written title of the center plus the “A”, “B”, and “C” in the image. Based on your needs, please choose the appropriate version from the [digital](https://github.com/ABC-Center/ABC-guide/tree/main/docs/logos/digital) or [print](https://github.com/ABC-Center/ABC-guide/tree/main/docs/logos/print) folders.
 
-![combined Imageomics and ABC logo](logos/Imageomics_ABC.png){: style="width:75%"}
+![smaller logo, just letters A, B, C](logos/digital/logo_icon_for_web_and_digital_content.png){: style="width:45%"}
+![full rectangular logo](logos/digital/full_ABC_logo_for_web_and_digital.png){: style="width:45%"}
 
 ## Other pages of note
 
 - [Glossary for Imageomics](wiki-guide/Glossary-for-Imageomics.md): Collection of terms used in imageomics. The goal is to ensure all participating domains are represented, thus facilitating interdisciplinary communication. This is a group effort, please check it out and add terms you think should be there!
 - [Command Line Cheat Sheet](wiki-guide/Command-Line-Cheat-Sheet.md): Collection of useful bash and git commands with some git tips.
 
-!!! question "[Questions, Comments, or Concerns?](https://github.com/Imageomics/Collaborative-distributed-science-guide/issues)"
+!!! question "[Questions, Comments, or Concerns?](https://github.com/ABC-Center/ABC-guide/issues)"

@@ -1,12 +1,14 @@
-# Contributing to the Collaborative Distributed Science Guide
+# Contributing to the ABC Guide
 
-Thank you for your interest in contributing to the Collaborative Distributed Science Guide! This document outlines the standards and guidelines for contributing to this template repository.
+Thank you for your interest in contributing to the ABC Guide!
+
+This document outlines the standards and guidelines for contributing to the ABC Guide. Before you begin, please review the information provided here.
+
+First, is your contribution specific to the AI & Biodiversity Change (ABC) Global Center, or would it be more broadly applicable? If more general, please consider instead directing the update or suggestion to the [Collaborative Distributed Science Guide](https://github.com/Imageomics/Collaborative-distributed-science-guide); updates to the template repository will be incorporated both here and in other other guides developed from it. If it _is_ ABC Center-specific, please continue to review this document&mdash;we look forward to your input!
 
 ## Overview
 
-The Collaborative Distributed Science Guide is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and deployed via GitHub Pages. All documentation is written in Markdown and follows specific formatting standards to ensure consistent rendering and maintainability.
-
-This is a template repository designed to be forked and customized by different organizations for their collaborative science documentation needs.
+The ABC Guide is built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and deployed via GitHub Pages. All documentation is written in Markdown and follows specific formatting standards to ensure consistent rendering and maintainability.
 
 ## Getting Started
 
@@ -34,7 +36,7 @@ This is a template repository designed to be forked and customized by different 
    mkdocs serve
    ```
 
-5. View the site at <http://127.0.0.1:8000/Collaborative-distributed-science-guide/>
+5. View the site at <http://127.0.0.1:8000/ABC-guide/>
 
 ### Testing Changes
 
@@ -219,7 +221,7 @@ When reviewing content:
 
 ## Getting Help
 
-- Open an [issue](https://github.com/Imageomics/Collaborative-distributed-science-guide/issues) for questions or problems
+- Open an [issue](https://github.com/ABC-Center/ABC-guide/issues) for questions or problems
 - Reference existing guides and templates for examples
 - Check the [MkDocs Material documentation](https://squidfunk.github.io/mkdocs-material/) for advanced features
 
@@ -229,4 +231,4 @@ All contributors must adhere to our [Code of Conduct](docs/CODE_OF_CONDUCT.md) a
 
 ---
 
-Thank you for helping improve the Collaborative Distributed Science Guide! Your contributions help make collaborative scientific computing more accessible and effective.
+Thank you for helping improve the ABC Guide! Your contributions help make collaborative scientific computing more accessible and effective.
