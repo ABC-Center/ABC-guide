@@ -56,7 +56,7 @@ Discover new tools to help:
 
 ## ABC Branding (Logos)
 
-We have two versions of the ABC logo: The icon (left) is used for smaller displays such as profile pictures, the corner or presentations, etc. The full logo should generally be used when it can be displayed large enough to see the full written title of the center plus the “A”, “B”, and “C” in the image. Based on your needs, please choose the appropriate version from the [digital](logos/digital) or [print](logos/print) folders.
+We have two versions of the ABC logo: The icon (left) is used for smaller displays such as profile pictures, the corner or presentations, etc. The full logo should generally be used when it can be displayed large enough to see the full written title of the center plus the “A”, “B”, and “C” in the image. Based on your needs, please choose the appropriate version from the [digital](https://github.com/ABC-Center/ABC-guide/tree/main/docs/logos/digital) or [print](https://github.com/ABC-Center/ABC-guide/tree/main/docs/logos/print) folders.
 
 ![smaller logo, just letters A, B, C](logos/digital/logo_icon_for_web_and_digital_content.png){: style="width:45%"}
 ![full rectangular logo](logos/digital/full_ABC_logo_for_web_and_digital.png){: style="width:45%"}
