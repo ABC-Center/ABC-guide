@@ -50,7 +50,7 @@ Adjust admonitions and links to match (where otherwise clashed)
 
 /* icon color */
 .md-typeset .admonition.note > .admonition-title::before {
-    background-color: #4fb798;
+    background-color: var(--md-accent-fg-color);
 }
 
 /* shaded part (title/heading) */
@@ -83,10 +83,18 @@ Adjust admonitions and links to match (where otherwise clashed)
   color: #4E70B3;
 }
 
+[data-md-color-scheme="default"] .md-typeset a:hover {
+  color: var(--md-accent-fg-color);  /* Turquoise accent color on hover */
+}
+
 /* Navigation URL (side panel contents) to ABC Logo "A" background color
   to better distinguish from those that are above */
 [data-md-color-scheme="default"] .md-nav .md-nav__link--active {
   color: #4E70B3;
+}
+
+[data-md-color-scheme="default"] .md-nav .md-nav__link--active:hover {
+  color: var(--md-accent-fg-color);  /* Turquoise accent color on hover */
 }
 
 /* Dark mode colors: Dark Grey Blue and Turquoise */
@@ -100,7 +108,15 @@ Adjust admonitions and links to match (where otherwise clashed)
   color: #96ADCD;
 }
 
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: var(--md-accent-fg-color);  /* Turquoise accent color on hover */
+}
+
 /* Dark mode custom active link color (side panel) */
 [data-md-color-scheme="slate"] .md-nav .md-nav__link--active {
   color: #96ADCD;
+}
+
+[data-md-color-scheme="slate"] .md-nav .md-nav__link--active:hover {
+  color: var(--md-accent-fg-color);  /* Turquoise accent color on hover */
 }
