@@ -1,6 +1,6 @@
 # Digital Product Life Cycle
 
-The Imageomics Institute is committed to FAIR and Reproducible data, software, ML models, and computational workflows, as demonstrated and defined by the [Digital Products Release and Licensing Policy](Digital-products-release-licensing-policy.md) that the Institute adopted. To achieve full and consistent adherence to this policy, promote integration of requisite best practices into the research project lifecycle, and to ensure the limited data science support resources of the Institute for assistance are utilized efficiently, the Digital Product Life Cycle aims to establish a life cycle framework with designated, regular, interspersed points at which research project teams are expected to engage with the Institute’s data science support team about digital artifacts and practices supporting adherence to our digital product commitments.
+The ABC Global Center is committed to FAIR and Reproducible data, software, ML models, and computational workflows, though we have not yet formally adopted the [Digital Products Release and Licensing Policy](Digital-products-release-licensing-policy.md). To achieve full and consistent adherence to this policy, promote integration of requisite best practices into the research project lifecycle, and to ensure the limited data science support resources of the Center for assistance are utilized efficiently, the Digital Product Life Cycle aims to establish a life cycle framework with designated, regular, interspersed points at which research project teams are expected to engage with the Center’s data science support team about digital artifacts and practices supporting adherence to our digital product commitments.
 
 Although most of the engagement from the side of research teams is expected to (and arguably should) primarily involve NextGens, responsibility for awareness of this policy and a team’s commitment to follow it lies with project[^1] PI(s). By following these guidelines, it will be easier to meet these requirements before paper submission deadlines without requiring major revisions on a truncated schedule (i.e., most—if not all—of the FAIR requirements will have been resolved prior to conference submissions). Below is a project life cycle diagram outlining the expected process of this policy, followed by an enumeration of the expectations organized by development phase.
 
@@ -23,11 +23,11 @@ The following adds additional context and direction to supplement the diagram, o
 ### Exploration Phase
 
 * Maintain record of any and all data utilized (source, license, citation, etc.).
-    * See [Data Sources Template](https://docs.google.com/spreadsheets/d/1r4-_Ytg2bwGMxLpYrk4GVhx61JSOYXANsSFjryNmsDE/edit?usp=drive_link).
+    * See [Data Sources Template](https://docs.google.com/spreadsheets/d/1cfCOd8gZAjxXcpzogjEDrbHyXZhNSIWudOxreHxqhbY/edit?usp=drive_link).
 * Document exploration of data.
     * This establishes an understanding of what the data is and how it can be used. For an example and guidance, consider the exploration and documentation done in the [Data Workshop](https://github.com/Imageomics/data-workshop-AH-2024).
 * Record processing steps applied—maintained in a well-documented code repository (following [GitHub Guidance](GitHub-Repo-Guide.md))—and update Dataset Card(s) with information and links back to GitHub repository.
-* Establish and update contributor list—follow the [Imageomics Author Guide](https://docs.google.com/spreadsheets/d/1GwlCukfoQPL8JI2yyWRD3g4uiMTO3tlGNE_qeb_xBCs/edit?usp=sharing).[^2]
+* Establish and update contributor list—follow the [ABC Author Guide](https://docs.google.com/spreadsheets/d/1-ThzRQxUjyrS8qDmsij8tlHfdO1xAnD0POKy__9WyJI/edit?usp=sharing).[^2]
     * Authors and author order for the paper and codebase (and/or dataset) may differ, all should be discussed.
 
 ### Model Development Phase
