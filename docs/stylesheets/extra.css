@@ -24,99 +24,96 @@ based on this suggestion: https://github.com/squidfunk/mkdocs-material/discussio
   width: 2.8rem;
 }
 
-/*
-Define ABC colors for theme (light and dark)
-- Turquoise: #4FB797
-- Grey blue: #667FAF
-- Green: #73AB4E
-- Dark grey blue: #2D3C58
-ABC Logo "A" background color: #4E70B3
-Adjust admonitions and links to match (where otherwise clashed)
-*/
-
-/* Light mode colors: Grey blue and Turquoise */
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color:        #667FAF;
-  --md-accent-fg-color:         #4FB797;
+/* Define ABC colors for theme */
+body {
+  --color-turquoise: #4fb797;
+  --color-turquoise-10: #4fb7971a; /* 10% alpha */
+  --color-grey-blue: #667faf;
+  --color-gb-contrast: #96ADCD; /* custom similar grey-blue for dark mode contrast */
+  --color-dark-grey-blue: #2d3c58;
+  --color-abc-green: #73ab4e;
+  --color-abc-green-10: #73ab4e1a; /* 10% alpha */
+  --color-abc-a-bg: #4e70b3; /* ABC Logo "A" background color */
 }
 
-/* Set admonition (Note) colors to match Turquoise used for accent (hover) 
-  Stands out better than matching the primary color */
-/* border color */
+/* Light mode colors */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        var(--color-grey-blue);
+  --md-accent-fg-color:         var(--color-turquoise);
+}
+
+/* Set admonition (Note) colors to stand out better */
 .md-typeset .admonition.note, .md-typeset details.note {
-    border-color: #4FB797;
-    box-shadow: #4FB7971a;
+    border-color: var(--color-turquoise);
+    box-shadow: var(--color-turquoise-10);
 }
 
 /* icon color */
 .md-typeset .admonition.note > .admonition-title::before {
-    background-color: var(--md-accent-fg-color);
+    background-color: var(--color-turquoise);
 }
 
 /* shaded part (title/heading) */
 .md-typeset .note>.admonition-title,.md-typeset .note>summary {
-    background-color: #4FB7971a;
+    background-color: var(--color-turquoise-10);
 }
 
-/* Set admonition (question) colors to match the ABC green */
-/* border color */
+/* Set admonition (question) colors */
 .md-typeset .admonition.question, .md-typeset details.question {
-    border-color: #73AB4E;
-    box-shadow: #73AB4E1a;
+    border-color: var(--color-abc-green);
+    box-shadow: var(--color-abc-green-10);
 }
 
 /* icon color */
 .md-typeset .admonition.question > .admonition-title::before {
-    background-color: #73AB4E;
+    background-color: var(--color-abc-green);
 }
 
 /* shaded part (title/heading) */
 .md-typeset .question>.admonition-title,.md-typeset .question>summary {
-    background-color: #73AB4E1a;
+    background-color: var(--color-abc-green-10);
 }
 
-/* Set URL colors to ABC Logo "A" background color 
-  Different test color was picking darker version of Turquoise (straight down 
-  on color pop-up provided through VS Code): #347964 */ 
+/* Set URL colors */
 /* Content URLs */
 [data-md-color-scheme="default"] .md-typeset a {
-  color: #4E70B3;
+  color: var(--color-abc-a-bg);
 }
 
 [data-md-color-scheme="default"] .md-typeset a:hover {
-  color: var(--md-accent-fg-color);  /* Turquoise accent color on hover */
+  color: var(--color-turquoise);
 }
 
-/* Navigation URL (side panel contents) to ABC Logo "A" background color
+/* Navigation URL (side panel contents)
   to better distinguish from those that are above */
 [data-md-color-scheme="default"] .md-nav .md-nav__link--active {
-  color: #4E70B3;
+  color: var(--color-abc-a-bg);
 }
 
 [data-md-color-scheme="default"] .md-nav .md-nav__link--active:hover {
-  color: var(--md-accent-fg-color);  /* Turquoise accent color on hover */
+  color: var(--color-turquoise);
 }
 
-/* Dark mode colors: Dark Grey Blue and Turquoise */
+/* Dark mode colors */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #2D3C58;
-  --md-accent-fg-color:         #4FB797;
+  --md-primary-fg-color:        var(--color-dark-grey-blue);
+  --md-accent-fg-color:         var(--color-turquoise);
 }
 
 /* Dark mode custom link color */
 [data-md-color-scheme="slate"] .md-typeset a {
-  color: #96ADCD;
+  color: var(--color-gb-contrast);
 }
 
 [data-md-color-scheme="slate"] .md-typeset a:hover {
-  color: var(--md-accent-fg-color);  /* Turquoise accent color on hover */
+  color: var(--color-turquoise);
 }
 
 /* Dark mode custom active link color (side panel) */
 [data-md-color-scheme="slate"] .md-nav .md-nav__link--active {
-  color: #96ADCD;
+  color: var(--color-gb-contrast);
 }
 
 [data-md-color-scheme="slate"] .md-nav .md-nav__link--active:hover {
-  color: var(--md-accent-fg-color);  /* Turquoise accent color on hover */
+  color: var(--color-turquoise);
 }
