@@ -104,7 +104,7 @@ identifiers:
     type: url
     value: "https://github.com/ABC-Center/<repo>/tree/<commit-hash>"
 keywords:
-  - imageomics
+  - biodiversity
 license:
 message: "If you find this software helpful in your research, please cite both the software and our paper."
 repository-code: "https://github.com/ABC-Center/<repo>"
@@ -171,16 +171,13 @@ A `.zenodo.json` can be created by applying [cffconvert](https://github.com/cita
     ],
     "description": "", // Ex: abstract from the citation, HTML can be used for formatting
     "keywords": [  // Add the same list of keywords as in your CITATION.cff
-      "imageomics"
+      "biodiversity"
     ],
     "title": "<repo title>",
     "version": "<release version>",
     "license": "<license>",           // Check docs for codes: https://developers.zenodo.org/#representation
     "publication_date": "YYYY-MM-DD",
     "grants": [
-        {
-            "id": "021nxhr62::2118240"  // Imageomics (<NSF code>::<Imageomics Grant #>)
-        },
         {
             "id": "021nxhr62::2330423"  // ABC NSF grant, NSERC requires manual update
         }
