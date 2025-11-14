@@ -41,4 +41,4 @@ This work was supported by both the [Imageomics Institute](https://imageomics.or
 
 # Special Thanks to...
 
-@annavik for her help in setting the color scheme to match ABC colors in an accessible format!
+[@annavik](https://github.com/annavik) for her help in setting the color scheme to match ABC colors in an accessible format!
