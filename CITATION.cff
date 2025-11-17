@@ -23,7 +23,7 @@ identifiers:
     value: "https://github.com/ABC-Center/ABC-guide/releases/tag/v1.1.0"
   - description: "The GitHub URL of the commit tagged with v1.1.0."
     type: url
-    value: "https://github.com/ABC-Center/ABC-guide/tree/<commit-hash>" # Update on release
+    value: "https://github.com/ABC-Center/ABC-guide/tree/2c1e49d012788c5d97a6d17c05e5caa224c17e5a"
 keywords:
   - "interdisciplinary science"
   - metadata
