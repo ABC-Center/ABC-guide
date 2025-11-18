@@ -11,6 +11,7 @@ This guide provides guidance and best practices for collaborative and interdisci
 
 Please feel free to open an [issue](https://github.com/ABC-Center/ABC-guide/issues) with any questions regarding the content of this guide.
 
+
 ### History
 
 This guide houses the information needed to get started with and use center resources readily available to all ABC members. It was developed based on the more general [Collaborative Distributed Science Guide](https://imageomics.github.io/Collaborative-distributed-science-guide/), which was a joint effort between ABC and Imageomics to generalize the [Imageomics Guide](https://imageomics.github.io/Imageomics-guide/) for a broader audience (please see the [template repository](https://github.com/Imageomics/Collaborative-distributed-science-guide) for more information). The template guide solution was born out of the desire to host an analogous site for the [AI and Biodiversity Change (ABC) Global Center](http://abcresearchcenter.org) while limiting duplicative updates between guides (ABC and Imageomics share some team members on this project).
