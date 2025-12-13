@@ -42,6 +42,15 @@ body {
   --md-accent-fg-color:         var(--color-turquoise);
 }
 
+/* GitHub panel color (mobile and small screen, issue 18) */
+.md-nav__source {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-source {
+  background-color: var(--md-primary-fg-color);
+}
+
 /* Set admonition (Note) colors to stand out better */
 .md-typeset .admonition.note, .md-typeset details.note {
     border-color: var(--color-turquoise);
