@@ -126,3 +126,11 @@ body {
 [data-md-color-scheme="slate"] .md-nav .md-nav__link--active:hover {
   color: var(--color-turquoise);
 }
+
+/* Small screen adjustments */
+@media screen and (max-width: 76.2344em) {
+  /* Dark mode custom active parent color (side panel) */
+  [data-md-color-scheme="slate"] .md-nav .md-nav__item--active > .md-nav__link {
+    color: var(--color-gb-contrast);
+  } 
+}
