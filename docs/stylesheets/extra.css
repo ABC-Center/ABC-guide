@@ -132,5 +132,12 @@ body {
   /* Dark mode custom active parent color (side panel) */
   [data-md-color-scheme="slate"] .md-nav .md-nav__item--active > .md-nav__link {
     color: var(--color-gb-contrast);
+  }
+}
+
+@media screen and (max-width: 76.2344em) {
+  /* Dark mode custom active parent hover color (side panel) */
+  [data-md-color-scheme="slate"] .md-nav .md-nav__item--active:hover > .md-nav__link {
+    color: var(--color-turquoise);
   } 
 }
