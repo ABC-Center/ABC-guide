@@ -24,22 +24,28 @@ based on this suggestion: https://github.com/squidfunk/mkdocs-material/discussio
   width: 2.8rem;
 }
 
-/* Define ABC colors for theme */
+/* 
+Define ABC colors for theme
+*/
 body {
-  --color-turquoise: #4fb797;
-  --color-turquoise-10: #4fb7971a; /* 10% alpha */
-  --color-grey-blue: #667faf;
-  --color-gb-contrast: #96ADCD; /* custom similar grey-blue for dark mode contrast */
-  --color-dark-grey-blue: #2d3c58;
-  --color-abc-green: #73ab4e;
+  --color-lm-primary: #667faf; /* light mode primary color (grey-blue) */
+  --color-lm-url: #4e70b3; /* light mode URL + note color (ABC Logo "A" background color) */
+  --color-lm-url-10: #4e70b31a; /* 10% alpha */
+  --color-lm-accent: #4fb797; /* light mode accent color (turquoise) */
+  --color-lm-accent-10: #4fb7971a; /* 10% alpha */
+  --color-dm-primary: #2d3c58; /* dark mode primary color (dark grey-blue) */
+  --color-dm-url: #96ADCD; /* dark mode contrast url (custom similar grey-blue) */
+  --color-dm-accent: #4fb797; /* dark mode accent color (turquoise) */
+  --color-dm-accent-10: #4fb7971a; /* 10% alpha */
+  --color-abc-green: #73ab4e; /* question admonition color */
   --color-abc-green-10: #73ab4e1a; /* 10% alpha */
-  --color-abc-a-bg: #4e70b3; /* ABC Logo "A" background color */
 }
 
 /* Light mode colors */
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color:        var(--color-grey-blue);
-  --md-accent-fg-color:         var(--color-turquoise);
+  --md-primary-fg-color:        var(--color-lm-primary);
+  --md-accent-fg-color:         var(--color-lm-accent);
+  --md-accent-fg-color-10:     var(--color-lm-accent-10);
 }
 
 /* GitHub panel color (mobile and small screen, issue 18) */
@@ -51,23 +57,47 @@ body {
   background-color: var(--md-primary-fg-color);
 }
 
-/* Set admonition (Note) colors to stand out better */
-.md-typeset .admonition.note, .md-typeset details.note {
-    border-color: var(--color-turquoise);
-    box-shadow: var(--color-turquoise-10);
+/* Set colors for collapsible summary component */
+.md-typeset details {
+    border-color: var(--color-lm-url);
+    box-shadow: none !important;
 }
 
 /* icon color */
-.md-typeset .admonition.note > .admonition-title::before {
-    background-color: var(--color-turquoise);
+.md-typeset summary:before {
+    background-color: var(--color-lm-url);
 }
 
 /* shaded part (title/heading) */
-.md-typeset .note>.admonition-title,.md-typeset .note>summary {
-    background-color: var(--color-turquoise-10);
+.md-typeset summary {
+    background-color: var(--color-lm-url-10);
 }
 
-/* Set admonition (question) colors */
+/* 
+Set admonition (note and info) colors to stand out better 
+Define through LM/DM scheme color variables to change with mode
+*/
+.md-typeset .admonition.note, .md-typeset details.note,
+.md-typeset .admonition.info, .md-typeset details.info {
+    border-color: var(--color-lm-url);
+    box-shadow: var(--color-lm-url-10);
+}
+
+/* icon color */
+.md-typeset .admonition.note > .admonition-title::before,
+.md-typeset .admonition.info > .admonition-title::before {
+    background-color: var(--color-lm-url);
+}
+
+/* shaded part (title/heading) */
+.md-typeset .note>.admonition-title,.md-typeset .note>summary,
+.md-typeset .info>.admonition-title, .md-typeset .info>summary {
+    background-color: var(--color-lm-url-10);
+}
+
+/*
+Set admonition (question) colors
+*/
 .md-typeset .admonition.question, .md-typeset details.question {
     border-color: var(--color-abc-green);
     box-shadow: var(--color-abc-green-10);
@@ -79,63 +109,94 @@ body {
 }
 
 /* shaded part (title/heading) */
-.md-typeset .question>.admonition-title,.md-typeset .question>summary {
+.md-typeset .question>.admonition-title, .md-typeset .question>summary {
     background-color: var(--color-abc-green-10);
 }
 
-/* Set URL colors */
+/*
+Set admonition (tip) colors 
+Change with LM/DM (set through scheme color variables)
+*/
+.md-typeset .admonition.tip, .md-typeset details.tip {
+    border-color: var(--md-accent-fg-color);
+    box-shadow: var(--md-accent-fg-color-10);
+}
+
+/* icon color */
+.md-typeset .admonition.tip > .admonition-title::before {
+    background-color: var(--md-accent-fg-color);
+}
+
+/* shaded part (title/heading) */
+.md-typeset .tip>.admonition-title, .md-typeset .tip>summary {
+    background-color: var(--md-accent-fg-color-10);
+}
+
+/* Set lightmode URL colors */
 /* Content URLs */
 [data-md-color-scheme="default"] .md-typeset a {
-  color: var(--color-abc-a-bg);
+  color: var(--color-lm-url);
+  font-weight: bold;
 }
 
 [data-md-color-scheme="default"] .md-typeset a:hover {
-  color: var(--color-turquoise);
+  color: var(--md-accent-fg-color);
 }
 
 /* Navigation URL (side panel contents)
   to better distinguish from those that are above */
 [data-md-color-scheme="default"] .md-nav .md-nav__link--active {
-  color: var(--color-abc-a-bg);
+  color: var(--color-lm-url);
+  font-weight: bold;
 }
 
 [data-md-color-scheme="default"] .md-nav .md-nav__link--active:hover {
-  color: var(--color-turquoise);
+  color: var(--md-accent-fg-color);
 }
 
 /* Dark mode colors */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        var(--color-dark-grey-blue);
-  --md-accent-fg-color:         var(--color-turquoise);
+  --md-primary-fg-color:        var(--color-dm-primary);
+  --md-accent-fg-color:         var(--color-dm-accent);
+  --md-accent-fg-color-10:     var(--color-dm-accent-10);
 }
 
 /* Dark mode custom link color */
 [data-md-color-scheme="slate"] .md-typeset a {
-  color: var(--color-gb-contrast);
+  color: var(--color-dm-url);
+  font-weight: bold;
 }
 
 [data-md-color-scheme="slate"] .md-typeset a:hover {
-  color: var(--color-turquoise);
+  color: var(--md-accent-fg-color);
 }
 
 /* Dark mode custom active link color (side panel) */
 [data-md-color-scheme="slate"] .md-nav .md-nav__link--active {
-  color: var(--color-gb-contrast);
+  color: var(--color-dm-url);
+  font-weight: bold;
 }
 
 [data-md-color-scheme="slate"] .md-nav .md-nav__link--active:hover {
-  color: var(--color-turquoise);
+  color: var(--md-accent-fg-color);
 }
 
 /* Small screen adjustments */
 @media screen and (max-width: 76.2344em) {
+  .md-nav--primary .md-nav__title {
+    background-color: var(--md-primary-fg-color);
+    /* bg defined by main theme as #fff */
+    color: var(--md-primary-bg-color);
+  }
+
   /* Dark mode custom active parent color (side panel) */
   [data-md-color-scheme="slate"] .md-nav .md-nav__item--active > .md-nav__link {
-    color: var(--color-gb-contrast);
+    color: var(--color-dm-url);
+    font-weight: bold;
   }
   
   /* Dark mode custom active parent hover color (side panel) */
   [data-md-color-scheme="slate"] .md-nav .md-nav__item--active:hover > .md-nav__link {
-    color: var(--color-turquoise);
+    color: var(--md-accent-fg-color);
   }
 }
