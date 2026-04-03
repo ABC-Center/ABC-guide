@@ -63,7 +63,7 @@ We have two versions of the ABC logo: The icon (left) is used for smaller displa
 
 ## Other pages of note
 
-- [Glossary for Imageomics](wiki-guide/Glossary-for-Imageomics.md): Collection of terms used in imageomics. The goal is to ensure all participating domains are represented, thus facilitating interdisciplinary communication. This is a group effort, please check it out and add terms you think should be there!
+- [ABC Glossary](wiki-guide/ABC-Glossary.md): Collection of terms used in both computer science and ecology. The goal is to ensure all participating domains are represented, thus facilitating interdisciplinary communication. This is a group effort, please check it out and add terms you think should be there!
 - [Command Line Cheat Sheet](wiki-guide/Command-Line-Cheat-Sheet.md): Collection of useful bash and git commands with some git tips.
 
 !!! question "[Questions, Comments, or Concerns?](https://github.com/ABC-Center/ABC-guide/issues)"
