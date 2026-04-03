@@ -1,12 +1,12 @@
-# Imageomics Glossary
+# ABC Glossary
 
-This glossary is designed as a resource for members of the Imageomics Institute from various backgrounds to familiarize themselves with key terms and concepts encountered in our work.
+This glossary is designed as a resource for members of the ABC Global Center from various backgrounds to familiarize themselves with key terms and concepts encountered in our work.
 
-It includes concepts in biology, ecology, genetics, machine learning and artificial intelligence, computer science, and software engineering.
+It includes concepts in biology, biodiversity, ecology, genetics, machine learning and artificial intelligence, computer science, and software engineering.
 
-Definitions are not meant to be comprehensive. Ideally, they will be tailored to our institute's context.
+Definitions are not meant to be comprehensive. Ideally, they will be tailored to ABC's context.
 
-It is meant to be a collaborative effort, so please [contribute](https://github.com/Imageomics/Imageomics-guide/issues) terms you would like defined, definitions you know, or corrections for errors you notice!
+It is meant to be a collaborative effort, so please [contribute](https://github.com/ABC-Center/ABC-guide/issues) terms you would like defined, definitions you know, or corrections for errors you notice!
 
 ## A
 
