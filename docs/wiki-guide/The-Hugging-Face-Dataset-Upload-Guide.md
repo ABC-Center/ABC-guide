@@ -53,7 +53,7 @@ login()
 
 from huggingface_hub import HfApi
 api = HfApi()
-repo_id = "<ABC-Center/dataset name>"
+repo_id = "ABC-Center/<dataset name>"
 
 # Upload by file
 api.upload_file(
@@ -76,7 +76,7 @@ api.upload_folder(
 Repos can also be created through the Hugging Face API using the [create_repo method](https://huggingface.co/docs/huggingface_hub/v1.10.1/en/package_reference/hf_api#huggingface_hub.HfApi.create_repo) with the following parameters:
 
 ```py linenums="1"
-repo_id = "<HF-Org-name>/<dataset-name>"
+repo_id = "ABC-Center/<dataset-name>"
 repo_type = "dataset"
 private = True  # if you want the repo private
 ```
@@ -106,7 +106,7 @@ import pandas as pd
 from huggingface_hub import HfApi
 
 api = HfApi()
-repo_id = "<org-name>/<repo-name>"
+repo_id = "ABC-Center/<repo-name>"
 repo_type = "dataset"
 
 file_list = api.list_repo_files(repo_id=repo_id, repo_type=repo_type)
