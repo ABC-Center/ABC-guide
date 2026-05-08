@@ -65,9 +65,9 @@ Dimensionality reduction techniques can be subdivided into two main categories:
 
 ### Ecology
 
-### Epoch (in machine learning)
-
 ### Encoder
+
+### Epoch (in machine learning)
 
 ### Experiment (in machine learning)
 
@@ -290,7 +290,7 @@ As opposed to [supervised learning](#supervised-learning), unsupervised learning
 
 Vision encoder, vision model, image model, and vision backbone are all synonyms used to describe a model that produces dense vector representations for images. Semantically similar images should be close together in this vector embedding space.
 
-VLMs (Vision-Language Models)
+### Vision Language Model (VLM)
 
 ## W
 
