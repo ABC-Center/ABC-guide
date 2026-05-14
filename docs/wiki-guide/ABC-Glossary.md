@@ -261,7 +261,7 @@ Part of the field of machine learning is developing new methods to efficiently a
 2. A family of weights: Llama2 is the name for all Llama2 models, including different sizes (7B, 13B, 70B) and base/instruction-tuned versions.
 3. An architecture: a transformer model refers to the general class of models that use self-attention (discussed later).
 
-#### Model (Ecology Version)
+### Model (Ecology Version)
 
 - Sometimes used in reference to mathematical models that arise from theory and describe relationships among components of an ecosystem.
     - **Example**: predator-prey model of population dynamics.
