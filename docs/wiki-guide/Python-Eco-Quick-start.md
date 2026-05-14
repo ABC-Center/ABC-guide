@@ -17,16 +17,18 @@ Let's start with a brief introduction to the basic coding scaffolding you'll nee
     - On Windows, you'll need to install one first; we recommend [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/).
     - Some useful common commands can be found in the [Command Line Cheat Sheet](Command-Line-Cheat-Sheet.md).
     - To run your program through the CLI, save your code in a file with the correct file extension (e.g. `myfile.py`), and type into the command line something like
-    ```console
-    python myfile.py
-    ```
+
+        ```console
+        python myfile.py
+        ```
+
 - As your code evolves beyond ["Hello World!"](https://en.wikipedia.org/wiki/Hello,_world), it will likely require you to use some **packages** or **libraries**: code written by developers, which you can download and use to make your life easier. For Python packages, you’ll want to use an environment manager like **conda**.
     - Generally, you want to scope a single environment for a particular project or task.
     - Learn more about different Python environment managers on the [Virtual Environents Page](Virtual-Environments.md).
 - For effective collaboration&mdash;with yourself and others&mdash;use **Git** (`git`) for version control and sync it to a remote, such as [GitHub](https://github.com/).
     - Learn more about the basics of, and motivations for, version control in [The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs/).
 
-Two great resources for lessons covering these topics: 
+Two great resources for lessons covering these topics:
 
 1. The [Missing Semester of Your CS Education](https://missing.csail.mit.edu/): a collection of computer science-themed lessons from MIT.
 
@@ -47,7 +49,7 @@ Work through each of the episodes in this lesson to gain a familiarity with Unix
 
 Lesson: [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 
-This lesson introduces users to local version control with `git` through the command line, then builds to interacting with the remote (e.g., <https://github.com>). It provides a comparison of tools and features introduced in the command line with their analogous UI (user interface) options in the remote (online). It also covers some common conventions and includes discussions of open science (see also [The Turing Way's discussion](https://book.the-turing-way.org/reproducible-research/open/)) and some core repository files, such as `.gitignore`, license, and citation files (also covered in our [GitHub Repo Guide](Github-Repo-Guide.md)). 
+This lesson introduces users to local version control with `git` through the command line, then builds to interacting with the remote (e.g., <https://github.com>). It provides a comparison of tools and features introduced in the command line with their analogous UI (user interface) options in the remote (online). It also covers some common conventions and includes discussions of open science (see also [The Turing Way's discussion](https://book.the-turing-way.org/reproducible-research/open/)) and some core repository files, such as `.gitignore`, license, and citation files (also covered in our [GitHub Repo Guide](Github-Repo-Guide.md)).
 
 For those using R, this lesson includes a supplemental section on [using Git from RStudio](https://swcarpentry.github.io/git-novice/14-supplemental-rstudio.html). VSCode also has a [Git integration](https://code.visualstudio.com/docs/sourcecontrol/github).
 
