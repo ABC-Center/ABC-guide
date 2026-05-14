@@ -143,6 +143,7 @@ nav:
   - Quick References:
       - "Command Line Cheat Sheet": wiki-guide/Command-Line-Cheat-Sheet.md
       - "PyPI & Zenodo Release Automation": wiki-guide/GitHub-PyPI-Zenodo-Integration.md
+      - "Quick-start to Python for Ecologists": wiki-guide/Python-Eco-Quick-start.md
   - Code of Conduct: CODE_OF_CONDUCT.md
   - Digital Product Policy: 
       - "About Digital Product Policies": wiki-guide/About-Digital-Product-Policies.md
