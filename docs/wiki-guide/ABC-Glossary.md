@@ -23,6 +23,7 @@ Biodiversity has the dictionary definition of the “variety of life on earth”
 Ecologists tend to think about biodiversity explicitly in terms of scales of organization. Probably the two most common ways of thinking about scale are spatial scale and levels of organization, which are sometimes correlated but are not the same thing.
 
 **Spacial scales** and how to think about them:
+
 - *Global* is the entire planet.
 - *Continental*, think the Americas.
 - *Regional*, think the East Coast of the US.
@@ -30,6 +31,7 @@ Ecologists tend to think about biodiversity explicitly in terms of scales of org
 - *Site*, as in one field site or study area (the term may also be applied to a particular sampling location within the study area). The sites themselves might differ vastly in terms of area–from $1m^2$ (or smaller) for things like experimental plots to tens of km (e.g., the Breeding Bird Survey’s “site” is ~40km long).
 
 **Levels of organization**:
+
 - [*Ecosystem*](#ecosystem): All of the organisms present along with their abiotic conditions. Focused on flows of energy or nutrients, or webs of interactions, between living members of a community and abiotic stocks. Ecosystem ecology has the most overlap with environmental science, and often thinks in box models or similar. Most overlap with climate modeling and climate science. Much canonical work was and is done in wetlands and aquatic systems.
 - *Community*: The various populations of many species present at the same location and interacting with each other. Canonical topics are interactions (i.e., consumer-resource interactions, competition, mutualisms), and coexistence (e.g., why are there so many species?). This is what most outside the field think of when they think of “ecology” in general.
 - [*Population*](#population): A single interacting group of organisms of a single species. Canonical topics include how populations are regulated (i.e., how their size is determined), what factors cause them to grow and shrink. Closely related to single-species conservation as trends in population size are often a quantity that is monitored and used to make conservation/management decisions.
@@ -42,7 +44,6 @@ This is not yet a discipline that is officially defined; it means different thin
 ### Biology
 
 The study of living things, things that reproduce themselves (including bacteria).
-
 
 ## C
 
@@ -67,7 +68,7 @@ For more information, see [CARE Principles for Indigenous Data Governance](https
 
 ### Contrastive Language-Image Pre-training (CLIP)
 
-Contrastive language-image pretraining (CLIP) is a training objective that popularized the idea of training strong vision models from language supervision, rather than class supervision. ImageNet is the classic labeled image dataset: 1.2M images where each image is labeled with one class out of one thousand possible classes. 
+Contrastive language-image pretraining (CLIP) is a training objective that popularized the idea of training strong vision models from language supervision, rather than class supervision. ImageNet is the classic labeled image dataset: 1.2M images where each image is labeled with one class out of one thousand possible classes.
 
 CLIP enables learning strong vision representations from image-caption pairs scraped on the internet.
 
@@ -103,6 +104,7 @@ The study of ecosystems: how organisms interact with each other and their enviro
 ### Ecosystem
 
 There are many definitions:
+
 - A set of potentially interacting organisms within their natural environment (including both biotic and abiotic environment).
 - Some people distinguish ecosystems as being more often described by process (e.g., nutrient cycling), compared to biodiversity.
 
@@ -123,6 +125,7 @@ The study of insects.
 
 The change in proportion of genes or traits within a population over the course of generations (many disagreements about this definition).
 Sometimes short and long time scales are distinguished:
+
 - **Short term**: over a few generations, prevalence of a gene changes.
 - **Long term**: new species with new morphologies, a.k.a. body parts emerge.
 
@@ -160,6 +163,14 @@ The key difference from feature extraction is that feature selection does not ge
 
 #### Feature Space
 
+### Fit (AI/ML Version)
+
+A model may be "fit" to a particular training set, in that it is optimized for that data and/or training objective. A well fit model will perform well on its training data, but&mdash;more importantly&mdash;it will be *generalizable* to new data under the same objective (e.g., classification of animals in images that it has not seen).
+
+- A model is considered to be *overfit* if it is too highly specialized to its training data, e.g., the model may perform near perfectly on museum specimen images it saw in training, but it cannot recognize the same species when photographed on a different background without a ruler.
+- Conversely, a model is *underfit* if it does not capture the underlying structure of even its training data and thus does not perform well on either its training or unseen data. From the previous example, the model wouldn't recognize species in any of the images.
+- IBM has a [nice general summary of these concepts](https://www.ibm.com/think/topics/underfitting).
+
 ### Fitness (Ecology Version)
 
 There are many definitions; one would be the number of offspring (that survive to reproduce) of an individual animal.
@@ -167,12 +178,13 @@ People often talk about how certain traits contribute to fitness, e.g., longer g
 
 ### Foundation Model
 
-A “foundation model” is a term coined by Stanford researchers in 2021 to describe large models trained on very general data that can adapt to a wide range of downstream tasks. It is another phrase to describe the pre-train/fine-tune paradigm introduced by computer vision researchers in the late 2010s. 
+A “foundation model” is a term coined by Stanford researchers in 2021 to describe large models trained on very general data that can adapt to a wide range of downstream tasks. It is another phrase to describe the pre-train/fine-tune paradigm introduced by computer vision researchers in the late 2010s.
 
 Typically, a foundation model:
+
 - Has many, many parameters.
 - Is pre-trained (normally in a self-supervised fashion) on a huge quantity of data at great cost.
-- Can be adapted to many different tasks **with significantly less data**, either through prompting (language models), fine-tuning (smaller foundation models) or linear probing ([vision models](#vision-models)). 
+- Can be adapted to many different tasks **with significantly less data**, either through prompting (language models), fine-tuning (smaller foundation models) or linear probing ([vision models](#vision-models)).
 
 ### Functional Diversity
 
@@ -202,8 +214,13 @@ A new scientific field in which computational (machine learning) tools built aro
 
 - Often used in reference to the interpretations/conclusions that we derive from our results/data analysis.
 **Examples**:
-    - “how does this covariate affect whether or not a species is present?” e.g. “when there are at least 50 trees with a diameter over XYZ within a 200m radius of this spot, you have a 90% chance of finding a Cerulean Warbler there” - these sorts of covariate-presence associations are often used for species distribution modeling
+    - “How does this covariate affect whether or not a species is present?” e.g. “When there are at least 50 trees with a diameter over XYZ within a 200m radius of this spot, you have a 90% chance of finding a Cerulean Warbler there”
+        - These sorts of covariate-presence associations are often used for species distribution modeling
 - Debates: Many ecologists make the distinction between inference versus prediction. Inference is more about ‘inferring’ relationships between variables and linking to theory, and not about trying to predict to new situations etc.; the emphasis is more about interpretation compared to making predictions.
+
+### Integrated Development Environment (IDE)
+
+Software or application designed with features to aid in software development, such as code editing, build automation, and debugging. Common examples include [VSCode](https://code.visualstudio.com/) and [RStudio](https://posit.co/products/open-source/rstudio), both of which include version control/tracking, with added options for git-based tracking integration (e.g., through [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/)). Additional options include formatting settings, compilers, and plugins for various language options. VSCode is often used for Python development and Jupyter Notebooks, while RStudio is generally recommended for R Code and R Markdown Notebooks.
 
 ## J
 
@@ -232,15 +249,13 @@ Important because it’s the scale at which individual organisms do stuff, like 
 
 ### Machine Learning (ML)
 
-Machine learning is a way to make predictions about new data based on old, seen data. Fitting a regression to $1$-D data in Excel is the most obvious example of “machine learning”. But you can imagine using many more input variables $(x_1, x_2, … x_n)$ and also predicting more output variables $(y_1, y_2, … y_n)$. 
+Machine learning is a way to make predictions about new data based on old, seen data. Fitting a regression to $1$-D data in Excel is the most obvious example of “machine learning”. But you can imagine using many more input variables $(x_1, x_2, … x_n)$ and also predicting more output variables $(y_1, y_2, … y_n)$.
 
 As your data gets more complex, you probably want to choose a “line of best fit” that is more complex than just a line. Unfortunately, while fitting lines is very easy (it’s a convex optimization problem), fitting more complicated stuff is harder.
 
 Part of the field of machine learning is developing new methods to efficiently and effectively fit complicated functions to complicated data.
 
-### Model
-
-#### Computer Science Model
+### Model (AI/ML Version)
 
 1. A specific set of parameters (also known as weights; they are just lots of numbers) optimized through training. [meta-llama/Llama-2-7b-chat](https://huggingface.co/meta-llama/Llama-2-7b-chat) is a set of weights for the Llama2 7B variant.
 2. A family of weights: Llama2 is the name for all Llama2 models, including different sizes (7B, 13B, 70B) and base/instruction-tuned versions.
@@ -315,16 +330,15 @@ Change in the places a species is found over time, e.g. due to changes in temper
 
 Self-supervised learning is very popular in both language and vision right now. I will explain the dominant self-supervised learning strategies in both modalities.
 
-**Causal language modeling**: given a token sequence $T_1, T_2, T_3, … T_N$, learn to predict the next token $T_{N+1}$. All text on the internet can be used for this task, and each sequence of $N$ tokens makes $N-1$ training examples. 
+**Causal language modeling**: given a token sequence $T_1, T_2, T_3, … T_N$, learn to predict the next token $T_{N+1}$. All text on the internet can be used for this task, and each sequence of $N$ tokens makes $N-1$ training examples.
 
-**Masked language modeling**: given a token sequence $T_1, T_2, MASK, T_4, … T_N$, learn to predict T_3. Again, all text on the internet can be used for this task because we can replace any token with $MASK$ to make a training example. 
+**Masked language modeling**: given a token sequence $T_1, T_2, MASK, T_4, … T_N$, learn to predict T_3. Again, all text on the internet can be used for this task because we can replace any token with $MASK$ to make a training example.
 
-**Vision SSL**: Given an image $IMG$, apply some augmentation to $IMG$ like color shifts, rotation, distortion, blur, crop, etc to make $IMG’$. Then minimize the distance between $f(IMG)$ and $f(IMG’)$ while maximizing distance between $f(IMG)$ and all other images. 
+**Vision SSL**: Given an image $IMG$, apply some augmentation to $IMG$ like color shifts, rotation, distortion, blur, crop, etc to make $IMG’$. Then minimize the distance between $f(IMG)$ and $f(IMG’)$ while maximizing distance between $f(IMG)$ and all other images.
 
 **Contrastive Language Image Pre-Training (CLIP)**: Given a large dataset of (image, text) pairs, learn two models: one for images $f_i(x)$, one for text $f_t(x)$. Minimize the distance between $f_i(image)$ and $f_t(text)$ for true (image, text) pairs and maximize the distance for random (image, text) pairs not found in the data.
 
-Self-supervised learning is all about finding a trick that enables learning useful representations without doing large-scale labeling. 
-
+Self-supervised learning is all about finding a trick that enables learning useful representations without doing large-scale labeling.
 
 ### Single Nucleotide Polymorphism (SNP)
 
@@ -335,9 +349,9 @@ A SNP (pronounced "snip") is a variation in the [nucleotide](#nucleotide) presen
 ### Species
 
 - A simplistic and debated definition: A group of organisms that regularly reproduce with each other.
-- There are *many* different ‘species concepts’ and it really depends on your study question. It has a lot of relevance for conservation as we are often concerned with identifying (and protecting) [‘endangered species’]().
-- **Longstanding debates**: 
-    - The ‘biological’ species concept assumes that different species should not be able to interbreed. *However*, that’s not true for many species, especially plants and invertebrates, microbes. There are also ‘lumpers’ and ‘splitters’: 
+- There are *many* different ‘species concepts’ and it really depends on your study question. It has a lot of relevance for conservation as we are often concerned with identifying (and protecting) 'endangered species'.
+- **Longstanding debates**:
+    - The ‘biological’ species concept assumes that different species should not be able to interbreed. *However*, that’s not true for many species, especially plants and invertebrates, microbes. There are also ‘lumpers’ and ‘splitters’:
         - Lumpers tend to aggregate into fewer species.
         - Splitters more likely to formally define many species.
     - With molecular markers etc, now there are ‘operational taxonomic units’ where we don’t need a formally defined species.
@@ -373,6 +387,7 @@ As opposed to [unsupervised learning](#unsupervised-learning), supervised learni
 ### Trait
 
 A characteristic of an individual organism such as e.g., its body mass, diet, when it is active (nocturnal, diurnal), clutch size (number of eggs it lays), color of wings, wing span, beak shape, etc. Traits are only traits if they can be measured on an individual, though there is still some debate over it--for example, some ecologists consider ‘species range’ a trait, but because it cannot be measured on an individual, it is not actually a trait.
+
 - A trait is “functional” if it plays some function (most trait do, though we cannot often map traits to functions yet).
 - A trait can be a ‘response trait’ or an ‘effect trait’: response traits describe an organism’s response to the environment, while effect traits describe the impact of this organism on the ecosystem's functioning.
 
@@ -382,28 +397,30 @@ A characteristic of an individual organism such as e.g., its body mass, diet, wh
 
 A transformer is a model architecture based on self-attention and feed-forward neural networks. They operate on sequences and can predict sequences or labels. There are three main variants: encoder-only, decoder-only and encoder-decoder. I will provide some examples of famous transformers to illustrate their strengths, weaknesses, and differences.
 
-*As a rule of thumb, a token is about $\frac{3}{4}$ of a word.*
+*As a rule of thumb, a token is about 3/4 of a word.*
 
 #### Transformer Examples
 
-**BERT** is an encoder-only language model transformer. Given a sequence of tokens, it produces a dense vector representation for each token and a representation for the entire sequence. 
+**BERT** is an encoder-only language model transformer. Given a sequence of tokens, it produces a dense vector representation for each token and a representation for the entire sequence.
+
 - Small model; can be trained on academic budget in 3 days
 - Used for sequence classification (is this sentence about animals or humans?) and token classification (predict the subsequence of tokens that is about animals).
 - Does not work with long contexts; limited to 512 token-length sequences.
 - Encoder-only: looks at the entire sequence at once. Cannot generate new text.
 
 **Llama2** (from Meta/Facebook) is a (family of) decoder-only language model transformers. Given a sequence of tokens, it produces a dense vector representation for each token and can sample new tokens that continue the sequence.
+
 - 7B, 13B and 70B variants. Cannot be trained on an academic budget. 7B and 13B can do inference on academic budgets.
-- Decoder-only: learns to minimize $p(x_i | x_{i-1}, x{i-2}, … x_2, x_1)$ for real sequences of $x$’s. Uses a causal attention mask.
+- Decoder-only: learns to minimize $p(x_i | x_{i-1}, x_{i-2}, … x_2, x_1)$ for real sequences of $x$’s. Uses a causal attention mask.
 - Given some text, you can sample from p to continue generating realistic text.
 4096 token context (8x BERT) by default; has 16K variants.
 
 **Vision Transformers (ViTs)** are an encoder-only transformer architecture for computer vision. They split an image up into 16x16 pixel “patches”, which are then treated as a sequence. They produce dense vector representations for each patch and also a representation for the entire image.
+
 - Many, many pre-trained weights available in many different sizes. Imageomics trained a ViT-B/16 (base, 16x16 pixel patch) for BioCLIP on the Ohio Supercomputer Center. ViT-L/14 (large, 14x14 pixel patch) is likely out of reach for most academic labs. Inference is very cheap.
-- Can be used for image classification, object detection, pose estimation, etc. 
+- Can be used for image classification, object detection, pose estimation, etc.
 
 **Whisper** (from OpenAI) is a family of encoder-decoder transformer models for speech-to-text. The decoder component can be used to sample new tokens conditioned on both previously sampled tokens and the encoder’s representations. Encoder-decoder models are most often used where the output is variable length and is a different modality to the input. This includes speech-to-text, text-to-speech, image-to-text, language translation, and others.
-
 
 ## U
 
@@ -419,6 +436,8 @@ Vision encoder, vision model, image model, and vision backbone are all synonyms 
 
 ### Vision Language Model (VLM)
 
+A model that incorporates both text and images; it may take both as input or output. Examples include [ViT-based](#transformer-examples) [CLIP](#contrastive-language-image-pre-training-clip) models which have both a vision and a text encoder to align images and text in the same embedding space.
+
 ## W
 
 ## X
@@ -428,3 +447,5 @@ Vision encoder, vision model, image model, and vision backbone are all synonyms 
 ## Z
 
 ### Zero-Shot Prediction
+
+Predicting something on which the model was not explicitly trained. For instance, asking [BioCLIP](https://huggingface.co/spaces/imageomics/bioclip-2-demo) to classify a picture of a Pokemon, giving it a list ["pickachu", "ninetails", "evee"]; it was not trained with these labels, nor with images of the Pokemon, but it will still provide an answer. A more practical example, would be new species recognizing species which it did not see in training.
