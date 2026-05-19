@@ -65,7 +65,7 @@ Many machine learning algorithms and workflows are run using Python. If you're n
 - [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder)
 
 !!! warning
-    Indexing and indentation are different in Python than R. For a more comprehensive comparison, check out this [translation of common commands and syntax](https://aeturrell.github.io/coding-for-economists/coming-from-r.html#r-python). 
+    Indexing and indentation are different in Python than R. For a more comprehensive comparison, check out this [translation of common commands and syntax](https://aeturrell.github.io/coding-for-economists/coming-from-r.html#r-python).
 
 ### Introduction to Data Analysis with Python
 
@@ -119,4 +119,4 @@ In addition to the resources described on this page, you may also want to check 
 
 - [Ecological Modeling with AI and Python](https://ecoforecast.org/workshops/statistical-methods-seminar-series/#ai-python) tutorial by Sara Beery and Timm Haucke as part of the [Ecological Forecasting Initiative and the ESA Statistical Ecology Section Statistical Methods Seminar Series](https://ecoforecast.org/workshops/statistical-methods-seminar-series).
 
-- [Coding Club](https://ourcodingclub.github.io/) offers a number of open-source [tutorials](https://ourcodingclub.github.io/tutorials.html) covering topics in data analysis, reproducible research, and modeling, all in different languages (including R and Python), as well as the basics of R and Python. Be aware that some content might be out of date (check the last modified date at the top of lessons), as the site do not appear to be actively maintained anymore. 
+- [Coding Club](https://ourcodingclub.github.io/) offers a number of open-source [tutorials](https://ourcodingclub.github.io/tutorials.html) covering topics in data analysis, reproducible research, and modeling, all in different languages (including R and Python), as well as the basics of R and Python. Be aware that some content might be out of date (check the last modified date at the top of lessons), as the site do not appear to be actively maintained anymore.
