@@ -9,6 +9,7 @@ Let's start with a brief introduction to the basic coding scaffolding you'll nee
 - **Programming languages** like R and Python can be run in [Integrated Development Environments (IDE)](ABC-Glossary.md#integrated-development-environment-ide) (e.g. **Rstudio** for R, and **Visual Studio Code** for Python).
     - [VSCode](https://code.visualstudio.com/) is a convenient, customizable Integrated Development Environment (IDE) for writing and editing code files in multiple languages, especially Python.
     - [RStudio](https://posit.co/products/open-source/rstudio) supports other languages as well, but is most commonly used for R.
+    - [Spyder](https://www.spyder-ide.org/) is an open-source IDE with a similar visual appearance and functionality to RStudio, so it offers an easy transition for users familiar with the R environment. More advanced users who want added functionality will appreciate VSCode, which can be used for R, Python, and many other coding languages.
 - Many programmers find it useful to write scripts in “lab notebook”-style documents that integrate comments, code, and printing and plotting results (e.g., **R Markdown Notebooks** for R and **Jupyter Notebooks** for Python).
     - Notebooks provide space for exploration and testing, with more immediate feedback and nicely rendered documentation of design decisions alongside the code.
     - Jupyter Notebooks can be run and edited in [VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
@@ -24,7 +25,7 @@ Let's start with a brief introduction to the basic coding scaffolding you'll nee
 
 - As your code evolves beyond ["Hello World!"](https://en.wikipedia.org/wiki/Hello,_world), it will likely require you to use some **packages** or **libraries**: code written by developers, which you can download and use to make your life easier. For Python packages, you’ll want to use an environment manager like **conda**.
     - Generally, you want to scope a single environment for a particular project or task.
-    - Learn more about different Python environment managers on the [Virtual Environents Page](Virtual-Environments.md).
+    - Learn more about different Python environment managers on the [Virtual Environments Page](Virtual-Environments.md).
 - For effective collaboration&mdash;with yourself and others&mdash;use **Git** (`git`) for version control and sync it to a remote, such as [GitHub](https://github.com/).
     - Learn more about the basics of, and motivations for, version control in [The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs/).
 
@@ -63,9 +64,12 @@ Many machine learning algorithms and workflows are run using Python. If you're n
 - [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation)
 - [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder)
 
+!!! warning
+    Indexing and indentation are different in Python than R. For a more comprehensive comparison, check out this [translation of common commands and syntax](https://aeturrell.github.io/coding-for-economists/coming-from-r.html#r-python). 
+
 ### Introduction to Data Analysis with Python
 
-This [data workshop training](https://youtu.be/71Ww42ddz9s) was first presented at the Imagomics All-Hands in 2024. It runs through an initial analysis of a simplified dataset, filling in a [dataset card](HF_DatasetCard_Template_mkdocs.md) as the data is explored, cleaned, and prepared for training. Notebooks and more information can be found in the [data workshop repo](https://github.com/Imageomics/data-workshop-AH-2024). To complete the training, follow the below instructions.
+This [data workshop training](https://youtu.be/71Ww42ddz9s) was first presented at the Imageomics All-Hands in 2024. It runs through an initial analysis of a simplified dataset, filling in a [dataset card](HF_DatasetCard_Template_mkdocs.md) as the data is explored, cleaned, and prepared for training. Notebooks and more information can be found in the [data workshop repo](https://github.com/Imageomics/data-workshop-AH-2024). To complete the training, follow the below instructions.
 
 #### Key Packages
 
@@ -114,3 +118,5 @@ In addition to the resources described on this page, you may also want to check 
 - [Data Science & Computing Cheat Sheet](https://docs.google.com/document/d/1YbOYnDZpRu6Jo1mpfg8m_zGeyY34NGECyxk2rNkH5eo/edit?usp=sharing) compiled by Tessa Rhinehart, Lauren Chronister, and Sara Beery with resources from both the [Kitzes](https://kitzeslab.org) and [Beery](https://beerys.github.io/) Labs. Some content links back to or is described in this guide, but there are other tutorials and resources that are not covered here.
 
 - [Ecological Modeling with AI and Python](https://ecoforecast.org/workshops/statistical-methods-seminar-series/#ai-python) tutorial by Sara Beery and Timm Haucke as part of the [Ecological Forecasting Initiative and the ESA Statistical Ecology Section Statistical Methods Seminar Series](https://ecoforecast.org/workshops/statistical-methods-seminar-series).
+
+- [Coding Club](https://ourcodingclub.github.io/) offers a number of open-source [tutorials](https://ourcodingclub.github.io/tutorials.html) covering topics in data analysis, reproducible research, and modeling, all in different languages (including R and Python), as well as the basics of R and Python. Be aware that some content might be out of date (check the last modified date at the top of lessons), as the site do not appear to be actively maintained anymore. 
