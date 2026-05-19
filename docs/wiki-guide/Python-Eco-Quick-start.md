@@ -6,7 +6,8 @@ Looking to implement AI/ML tools into your pipeline? Here's a quick-start guide 
 
 Let's start with a brief introduction to the basic coding scaffolding you'll need:
 
-- **Programming languages** like R and Python can be run in [Integrated Development Environments (IDE)](ABC-Glossary.md#integrated-development-environment-ide) (e.g. **Rstudio** for R, and **Visual Studio Code** for Python).
+- **Python** is an [**object-oriented programming language**](https://en.wikipedia.org/wiki/Object-oriented_programming) that works similarly to **R**: it has basic built-in functions and gains enhanced functionality by installing *packages*.
+- Programming languages like R, Python can be run in [Integrated Development Environments (IDE)](ABC-Glossary.md#integrated-development-environment-ide) (e.g. **Rstudio** for R, and **Visual Studio Code** for Python).
     - [VSCode](https://code.visualstudio.com/) is a convenient, customizable Integrated Development Environment (IDE) for writing and editing code files in multiple languages, especially Python.
     - [RStudio](https://posit.co/products/open-source/rstudio) supports other languages as well, but is most commonly used for R.
     - [Spyder](https://www.spyder-ide.org/) is an open-source IDE with a similar visual appearance and functionality to RStudio, so it offers an easy transition for users familiar with the R environment. More advanced users who want added functionality will appreciate VSCode, which can be used for R, Python, and many other coding languages.
@@ -119,4 +120,4 @@ In addition to the resources described on this page, you may also want to check 
 
 - [Ecological Modeling with AI and Python](https://ecoforecast.org/workshops/statistical-methods-seminar-series/#ai-python) tutorial by Sara Beery and Timm Haucke as part of the [Ecological Forecasting Initiative and the ESA Statistical Ecology Section Statistical Methods Seminar Series](https://ecoforecast.org/workshops/statistical-methods-seminar-series).
 
-- [Coding Club](https://ourcodingclub.github.io/) offers a number of open-source [tutorials](https://ourcodingclub.github.io/tutorials.html) covering topics in data analysis, reproducible research, and modeling, all in different languages (including R and Python), as well as the basics of R and Python. Be aware that some content might be out of date (check the last modified date at the top of lessons), as the site do not appear to be actively maintained anymore.
+- [Coding Club](https://ourcodingclub.github.io/) offers a number of open-source [tutorials](https://ourcodingclub.github.io/tutorials.html) covering topics in data analysis, reproducible research, and modeling, all in different languages (including R and Python), as well as the basics of R and Python. Be aware that some content might be out of date (check the last modified date at the top of lessons), as the site does not appear to be actively maintained anymore.
