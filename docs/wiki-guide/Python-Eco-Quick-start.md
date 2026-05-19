@@ -24,8 +24,9 @@ Let's start with a brief introduction to the basic coding scaffolding you'll nee
         python myfile.py
         ```
 
-- As your code evolves beyond ["Hello World!"](https://en.wikipedia.org/wiki/Hello,_world), it will likely require you to use some **packages** or **libraries**: code written by developers, which you can download and use to make your life easier. For Python packages, you’ll want to use an environment manager like **conda**.
-    - Generally, you want to scope a single environment for a particular project or task.
+- As your code evolves beyond ["Hello World!"](https://en.wikipedia.org/wiki/Hello,_world), it will likely require you to use some **packages** or **libraries**: code written by developers, which you can download and use to make your life easier. For Python packages, you’ll want to use an environment manager like [**conda**](https://www.anaconda.com/docs/getting-started/main) or [**venv**](https://docs.python.org/3/library/venv.html).
+    - Generally, you want to scope a single environment for a particular project or task, much as an R library for a project will consist of just the packages needed for that project. A key difference is that the environment will also fix a particular version of Python and consist of all packages required for the project, though one may import only the package modules (or functions) used for a particular file.
+        - Environment management can also be accomplished for R projects, e.g., with [renv](https://rstudio.github.io/renv/).
     - Learn more about different Python environment managers on the [Virtual Environments Page](Virtual-Environments.md).
 - For effective collaboration&mdash;with yourself and others&mdash;use **Git** (`git`) for version control and sync it to a remote, such as [GitHub](https://github.com/).
     - Learn more about the basics of, and motivations for, version control in [The Turing Way](https://book.the-turing-way.org/reproducible-research/vcs/).
