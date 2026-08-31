@@ -1,4 +1,4 @@
-# AI & Biodiversity Change (ABC) Global Center Guide
+# AI & Biodiversity Change (ABC) Global Center Guide [![DOI](https://zenodo.org/badge/1044335220.svg)](https://doi.org/10.5281/zenodo.22213989)
 
 Welcome to the ABC Guide!
 
